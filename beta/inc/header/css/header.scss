@@ -1,0 +1,12 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+.site-header {
+	.site-links,
+	.social-icon {
+		color: $white;
+		@include hover-focus-active {
+			color: $green;
+		}
+	}
+}
