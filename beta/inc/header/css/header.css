@@ -1,10 +1,56 @@
+.site-header .left-sidebar {
+  width: 14.375rem;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  left: 0;
+  bottom: 0; }
+.site-header .menu-links {
+  height: 16.5rem;
+  overflow-y: auto; }
 .site-header .site-links,
 .site-header .social-icon {
-  color: #fff; }
+  color: #fff;
+  transition: 0.3s all linear; }
   .site-header .site-links:hover, .site-header .site-links:focus, .site-header .site-links:active,
   .site-header .social-icon:hover,
   .site-header .social-icon:focus,
   .site-header .social-icon:active {
-    color: #07cb79; }
+    color: #07cb79;
+    text-decoration: none; }
+.site-header .site-links {
+  font-size: .875rem; }
+  .site-header .site-links:hover, .site-header .site-links:focus, .site-header .site-links:active {
+    box-shadow: 15px 0px 0px 0px #07cb79 inset;
+    border-right: 5px solid #07cb79; }
+.site-header .copy-right {
+  font-size: .75rem; }
+
+.scroll::-webkit-scrollbar {
+  width: 6px;
+  background-color: #343a40; }
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #07cb79; }
+
+#scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #495057; }
+
+@media (max-width: 767.98px) {
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #343a40;
+    height: 3rem; }
+    .site-header .toggle-btn {
+      position: absolute;
+      right: 0;
+      color: #fff;
+      top: 50%;
+      margin-top: -1rem;
+      margin-right: 1rem; } }
 
 /*# sourceMappingURL=header.css.map */
