@@ -34,6 +34,50 @@ $left-sidebar-width: 14.375rem;
     .copy-right {
         font-size: .75rem;
     }
+    .menu-links {
+        li {
+            position: relative;
+        }
+    }
+    .sub-menu {
+        .site-links {
+            @include hover-focus-active {
+                box-shadow: none;
+                border-right: none;
+            }
+        }
+        .dropdown-menu {
+            dispay: none;
+            background-color: $gray-200;
+            position: absolute;
+            left: 0;
+            right: 0;
+            border-radius: .25rem;
+            max-width: 200px;
+            margin: 0 auto;
+            &:before {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 7px 7px 7px;
+                border-color: transparent transparent $gray-200 transparent;
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "";
+                margin-top: -7px;
+                margin-left: 14px;
+            }
+            .site-links {
+                color: $gray-700;
+            }
+        }
+        &.open {
+            .dropdown-menu {
+                display: block;
+            }
+        }
+    }
 }
 
 // custom scroll
@@ -94,50 +138,6 @@ $left-sidebar-width: 14.375rem;
             }
             .toggle-btn {
                 @include transform(rotate(90deg));
-            }
-        }
-        .menu-links {
-            li {
-                position: relative;
-            }
-        }
-        .sub-menu {
-            .site-links {
-                @include hover-focus-active {
-                    box-shadow: none;
-                    border-right: none;
-                }
-            }
-            .dropdown-menu {
-                dispay: none;
-                background-color: $gray-200;
-                position: absolute;
-                left: 0;
-                right: 0;
-                border-radius: .25rem;
-                max-width: 200px;
-                margin: 0 auto;
-                &:before {
-                    width: 0;
-                    height: 0;
-                    border-style: solid;
-                    border-width: 0 7px 7px 7px;
-                    border-color: transparent transparent $gray-200 transparent;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    content: "";
-                    margin-top: -7px;
-                    margin-left: 14px;
-                }
-                .site-links {
-                    color: $gray-700;
-                }
-            }
-            &.open {
-                .dropdown-menu {
-                    display: block;
-                }
             }
         }
     }
