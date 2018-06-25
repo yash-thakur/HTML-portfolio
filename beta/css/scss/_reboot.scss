@@ -203,7 +203,8 @@ a {
 
   @include hover {
     color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
+    // text-decoration: $link-hover-decoration;
+    text-decoration: none;
   }
 }
 

@@ -85,6 +85,8 @@
     right: 0;
     background-color: #343a40;
     height: 3rem; }
+    .site-header .header-bar {
+      height: 3rem; }
     .site-header .toggle-btn {
       position: absolute;
       right: 0;

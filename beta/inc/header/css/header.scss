@@ -116,6 +116,9 @@ $left-sidebar-width: 14.375rem;
         right: 0;
         background-color: $gray-800;
         height: 3rem;
+        .header-bar {
+        	height: 3rem;
+        }
         .toggle-btn {
             position: absolute;
             right: 0;

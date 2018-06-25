@@ -1,8 +1,9 @@
 <!--=================================
 header -->
 <header class="site-header col-md-3 col-xl-2">
-	<div class="d-flex align-items-center">
-		<button class="toggle-btn btn btn-link d-md-none p-0" type="button">
+	<div class="header-bar d-flex align-items-center d-md-none">
+		<h1 class="font-weight-bold h4 mb-0"><a href="#" class="text-uppercase text-white">sam martin</a></h1>
+		<button class="toggle-btn btn btn-link p-0" type="button">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
 		</button>
 	</div>
