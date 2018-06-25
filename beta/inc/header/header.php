@@ -42,9 +42,9 @@ header -->
 					<li>
 						<a href="#testimonials" class="site-links page-scroll text-uppercase px-4 py-2 d-block">Testimonials</a>
 					</li>
-					<li>
+					<li class="sub-menu">
 						<a href="#" class="site-links text-uppercase px-4 py-2 d-block">pages</a>
-						<ul class="list-unstyled">
+						<ul class="dropdown-menu list-unstyled">
 							<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="blog.html">Blog </a></li>
 							<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="blog-single.html">Blog single</a></li>
 							<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="portfolio-single.html">Portfolio single</a></li>
@@ -72,7 +72,7 @@ header -->
 				</ul>
 			</div>
 			<div class="copy-right px-4 py-2">
-				<p class="text-white text-uppercase">&copy; Sam Martin all rights reserved</p>
+				<p class="text-white text-uppercase">&copy; Sam Martin <span class="d-block">all rights reserved</span></p>
 			</div>
 		</div>
 	</div>	

@@ -28,14 +28,24 @@
 
 .scroll::-webkit-scrollbar {
   width: 6px;
-  background-color: #343a40; }
+  background-color: #343a40;
+  display: none; }
+  .scroll::-webkit-scrollbar:hover {
+    display: block; }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #07cb79; }
+  background-color: #07cb79;
+  visibility: hidden;
+  display: none; }
+  .scroll::-webkit-scrollbar-thumb:hover {
+    display: block; }
 
 #scroll::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #495057; }
+  background-color: #495057;
+  display: none; }
+  #scroll::-webkit-scrollbar-track:hover {
+    display: block; }
 
 @media (max-width: 767.98px) {
   .site-header {
@@ -51,6 +61,50 @@
       color: #fff;
       top: 50%;
       margin-top: -1rem;
-      margin-right: 1rem; } }
+      margin-right: 1rem;
+      transition: 0.3s all linear; }
+      .site-header .toggle-btn:focus {
+        outline: 0; }
+    .site-header .left-sidebar {
+      margin-left: -14.375rem;
+      transition: 0.3s all linear; }
+    .site-header.open .left-sidebar {
+      margin-left: 0; }
+    .site-header.open .toggle-btn {
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg); }
+    .site-header .menu-links li {
+      position: relative; }
+    .site-header .sub-menu .site-links:hover, .site-header .sub-menu .site-links:focus, .site-header .sub-menu .site-links:active {
+      box-shadow: none;
+      border-right: none; }
+    .site-header .sub-menu .dropdown-menu {
+      dispay: none;
+      background-color: #e9ecef;
+      position: absolute;
+      left: 0;
+      right: 0;
+      border-radius: .25rem;
+      max-width: 200px;
+      margin: 0 auto; }
+      .site-header .sub-menu .dropdown-menu:before {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 7px 7px 7px;
+        border-color: transparent transparent #e9ecef transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        margin-top: -7px;
+        margin-left: 14px; }
+      .site-header .sub-menu .dropdown-menu .site-links {
+        color: #495057; }
+    .site-header .sub-menu.open .dropdown-menu {
+      display: block; } }
 
 /*# sourceMappingURL=header.css.map */
