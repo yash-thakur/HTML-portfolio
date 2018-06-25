@@ -27,7 +27,7 @@ $left-sidebar-width: 14.375rem;
     .site-links {
         font-size: .875rem;
         @include hover-focus-active {
-            box-shadow: 15px 0px 0px 0px $green inset;
+            box-shadow: 15px 0px 0px -1px $green inset;
             border-right: 5px solid $green;
         }
     }

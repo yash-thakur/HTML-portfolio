@@ -21,7 +21,7 @@
 .site-header .site-links {
   font-size: .875rem; }
   .site-header .site-links:hover, .site-header .site-links:focus, .site-header .site-links:active {
-    box-shadow: 15px 0px 0px 0px #07cb79 inset;
+    box-shadow: 15px 0px 0px -1px #07cb79 inset;
     border-right: 5px solid #07cb79; }
 .site-header .copy-right {
   font-size: .75rem; }
