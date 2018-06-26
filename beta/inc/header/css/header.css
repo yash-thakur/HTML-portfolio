@@ -3,7 +3,8 @@
   top: 0;
   height: 100%;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+  overflow-y: auto; }
 .site-header .menu-links {
   height: 16.5rem;
   overflow-y: auto; }
