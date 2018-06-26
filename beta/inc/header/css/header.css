@@ -1,5 +1,4 @@
 .site-header .left-sidebar {
-  width: 14.375rem;
   position: fixed;
   top: 0;
   height: 100%;
@@ -21,6 +20,9 @@
 .site-header .site-links {
   font-size: .875rem; }
   .site-header .site-links:hover, .site-header .site-links:focus, .site-header .site-links:active {
+    box-shadow: 15px 0px 0px -1px #07cb79 inset;
+    border-right: 5px solid #07cb79; }
+  .site-header .site-links.active {
     box-shadow: 15px 0px 0px -1px #07cb79 inset;
     border-right: 5px solid #07cb79; }
 .site-header .copy-right {
@@ -84,7 +86,8 @@
     left: 0;
     right: 0;
     background-color: #343a40;
-    height: 3rem; }
+    height: 3rem;
+    z-index: 11; }
     .site-header .header-bar {
       height: 3rem; }
     .site-header .toggle-btn {
@@ -99,7 +102,8 @@
         outline: 0; }
     .site-header .left-sidebar {
       margin-left: -14.375rem;
-      transition: 0.3s all linear; }
+      transition: 0.3s all linear;
+      width: 14.375rem; }
     .site-header.open .left-sidebar {
       margin-left: 0; }
     .site-header.open .toggle-btn {

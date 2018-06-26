@@ -2,12 +2,14 @@
 header -->
 <header class="site-header col-md-3 col-xl-2">
 	<div class="header-bar d-flex align-items-center d-md-none">
-		<h1 class="font-weight-bold h4 mb-0"><a href="#" class="text-uppercase text-white">sam martin</a></h1>
+		<h4 class="font-weight-bold mb-0">
+			<a href="#" class="text-uppercase text-white">sam martin</a>
+		</h4>
 		<button class="toggle-btn btn btn-link p-0" type="button">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
 		</button>
 	</div>
-	<div class="left-sidebar bg-dark">
+	<div class="left-sidebar bg-dark col-md-3 col-xl-2 px-0">
 		<nav>
 			<div class="p-4">
 				<a href="#">
@@ -17,7 +19,7 @@ header -->
 			<div class="scroll menu-links">
 				<ul class="list-unstyled">
 					<li>
-						<a href="#home" class="site-links page-scroll text-uppercase px-4 py-2 d-block">Home</a>
+						<a href="#home" class="active site-links page-scroll text-uppercase px-4 py-2 d-block">Home</a>
 					</li>
 					<li>
 						<a href="#about" class="site-links page-scroll text-uppercase px-4 py-2 d-block">About</a>

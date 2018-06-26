@@ -1,3 +1,72 @@
 @import "../../../css/scss/functions";
 @import "../../../css/scss/variables";
 @import "../../../css/scss/mixins";
+.banner-section {
+    height: 100vh;
+    line-height: 0;
+    .bg-img {
+        @include img-inbg;
+        line-height: 1.5;
+        &:before {
+            content: '';
+            background: linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+            opacity: .6;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0, -50%));
+            left: 0;
+            padding-left: 5%;
+        }
+    }
+    .scroll-down {
+        text-align: center;
+        width: 2.125rem;
+        height: 3.625rem;
+        display: inline-block;
+        border-radius: 1.25rem;
+        border: 3px solid $white;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        @include transform(translate(-50%, 0));
+        margin-bottom: 2rem;
+        span {
+            height: .625rem;
+            width: .25rem;
+            background-color: $white;
+            display: inline-block;
+            border-radius: 3px;
+            @include animation (fadebounce 3s infinite);
+        }
+    }
+}
+
+@include keyframes(fadebounce) {
+    0% {
+    	@include transform(translateY(0));
+        opacity: 1;
+    }
+    50% {
+        @include transform(translateY(1.5625rem));
+        opacity: 1;
+    }
+    100% {
+       @include transform(translateY(0));
+        opacity: 1;
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    .banner-section {
+        padding-top: 3rem;
+    }
+}
