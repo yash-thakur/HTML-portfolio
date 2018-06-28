@@ -58,6 +58,38 @@
       -o-animation: fadebounce 3s infinite;
       animation: fadebounce 3s infinite; }
 
+#about .social-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #06b26a;
+  transition: 0.2s linear all;
+  color: #fff; }
+  #about .social-icon:hover, #about .social-icon:focus, #about .social-icon:active {
+    background-color: #07c676; }
+#about .icons {
+  font-size: 2rem; }
+#about .desc p {
+  line-height: 1.7; }
+
+#services .service-icon {
+  font-size: 2.5rem; }
+#services .contact-btn {
+  height: .3125rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s all ease-in-out; }
+#services .service-block {
+  position: relative;
+  overflow: hidden; }
+  #services .service-block p {
+    margin-bottom: 1.875rem;
+    font-size: .875rem; }
+  #services .service-block:hover .contact-btn {
+    height: 2.5rem; }
+
 @-webkit-keyframes fadebounce {
   0% {
     -moz-transform: translateY(0);

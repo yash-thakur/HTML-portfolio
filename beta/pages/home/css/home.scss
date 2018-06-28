@@ -49,9 +49,57 @@
     }
 }
 
+#about {
+    .social-icon {
+        @include size(2.5rem);
+        border-radius: 50%;
+        background-color: darken($green, 5%);
+        @include transition(.2s linear all);
+        color: $white;
+        @include hover-focus-active {
+            background-color: darken($green, 1%);
+        }
+    }
+    .icons {
+        font-size: 2rem;
+    }
+    .desc {
+        p {
+            line-height: 1.7;
+        }
+    }
+}
+
+#services {
+    .service-icon {
+        font-size: 2.5rem;
+    }
+    .contact-btn {
+        height: .3125rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include transition(.3s all ease-in-out);
+    }
+    .service-block {
+        position: relative;
+        overflow: hidden;
+        p {
+            margin-bottom: 1.875rem;
+            font-size: .875rem;
+        }
+        &:hover {
+            .contact-btn {
+                height: 2.5rem;
+            }
+        }
+    }
+}
+
 @include keyframes(fadebounce) {
     0% {
-    	@include transform(translateY(0));
+        @include transform(translateY(0));
         opacity: 1;
     }
     50% {
@@ -59,7 +107,7 @@
         opacity: 1;
     }
     100% {
-       @include transform(translateY(0));
+        @include transform(translateY(0));
         opacity: 1;
     }
 }

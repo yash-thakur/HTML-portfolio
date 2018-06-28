@@ -70,6 +70,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+$gray-light:    $gray-600 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -80,7 +81,8 @@ $theme-colors: map-merge((
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "gray-light": $gray-light
 ), $theme-colors);
 // stylelint-enable
 
@@ -226,7 +228,7 @@ $transition-collapse:         height .35s ease !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:     "Roboto", "Helvetica", "Arial", sans-serif!default;
+$font-family-sans-serif:     "Open Sans", "Helvetica", "Arial", sans-serif!default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
@@ -237,6 +239,8 @@ $font-size-sm:                ($font-size-base * .875) !default;
 
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
+$font-weight-medium:          600 !default;
+
 $font-weight-bold:            700 !default;
 
 $font-weight-base:            $font-weight-normal !default;
