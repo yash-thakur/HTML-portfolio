@@ -70,7 +70,7 @@
     }
 }
 
-#services {
+#service {
     .service-icon {
         font-size: 2.5rem;
     }
@@ -81,17 +81,24 @@
         left: 0;
         right: 0;
         @include transition(.3s all ease-in-out);
+        span {
+            @include transition(.9s all ease-in-out);
+            line-height: 6.25rem;
+        }
     }
     .service-block {
         position: relative;
         overflow: hidden;
         p {
-            margin-bottom: 1.875rem;
+            margin-bottom: 3.875rem;
             font-size: .875rem;
         }
         &:hover {
             .contact-btn {
                 height: 2.5rem;
+                span  {
+                    line-height: 2.5rem;
+                }
             }
         }
     }
