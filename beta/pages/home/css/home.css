@@ -108,9 +108,25 @@
     transition: 0.2s linear all; }
     #skill .progress-bar .bar span {
       position: absolute;
-      top: 0;
+      bottom: 0;
       right: 0;
-      margin-top: -1.875rem; }
+      margin-bottom: -1.875rem; }
+#skill .skill-chart {
+  border-top: 1px solid #6c757d; }
+  #skill .skill-chart .expand p {
+    font-size: .875rem; }
+  #skill .skill-chart .expand:before {
+    display: block;
+    position: relative;
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: #6c757d;
+    margin: auto; }
+  #skill .skill-chart .expand.expand-left:before {
+    margin-left: 0; }
+  #skill .skill-chart .expand.expand-right:before {
+    margin-right: 0; }
 
 @-webkit-keyframes fadebounce {
   0% {
@@ -203,5 +219,64 @@
 @media (max-width: 767.98px) {
   .banner-section {
     padding-top: 3rem; } }
+.wrapper {
+  width: 100px;
+  /* Set the size of the progress bar */
+  height: 100px;
+  position: absolute;
+  /* Enable clipping */
+  clip: rect(0px, 100px, 100px, 50px);
+  /* Hide half of the progress bar */ }
+
+/* Set the sizes of the elements that make up the progress bar */
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px); }
+
+div[data-anim~=base] {
+  -webkit-animation-iteration-count: 1;
+  /* Only run once */
+  -webkit-animation-fill-mode: forwards;
+  /* Hold the last keyframe */
+  -webkit-animation-timing-function: linear;
+  /* Linear animation */ }
+
+.wrapper[data-anim~=wrapper] {
+  -webkit-animation-duration: 0.01s;
+  /* Complete keyframes asap */
+  -webkit-animation-delay: 3s;
+  /* Wait half of the animation */
+  -webkit-animation-name: close-wrapper;
+  /* Keyframes name */ }
+
+.circle[data-anim~=left] {
+  -webkit-animation-duration: 6s;
+  /* Full animation time */
+  -webkit-animation-name: left-spin; }
+
+.circle[data-anim~=right] {
+  -webkit-animation-duration: 3s;
+  /* Half animation time */
+  -webkit-animation-name: right-spin; }
+
+@-webkit-keyframes right-spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(180deg); } }
+/* Rotate the left side of the progress bar from 0 to 360 degrees */
+@-webkit-keyframes left-spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+/* Set the wrapper clip to auto, effectively removing the clip */
+@-webkit-keyframes close-wrapper {
+  to {
+    clip: rect(auto, auto, auto, auto); } }
 
 /*# sourceMappingURL=home.css.map */

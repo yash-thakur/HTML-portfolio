@@ -316,61 +316,92 @@
 		<!-- skill section -->
 		<div id="skill" class="py-5 px-md-5 px-3">
 			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
-			<h2>My Skill</h2>
-			<div class="row my-4">
-				<div class="col-md-6">
-					<h3>My Professional Strengths</h3>
-					<p class="text-gray-light font-weight-medium h5 my-4">
-						“The strength of a man's virtue should not be measured by his special exertions, but by his habitual acts”
-					</p>
-					<blockquote class="skill-content pl-3 blockquote">
-						<p class="text-gray-light font-italic">My Professional Strengths Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit error culpa unde, esse quam quasi, necessitatibus voluptatem possimus, repellendus.</p>
-						<p class="text-gray-light font-italic">The other virtues practice in succession by Franklin were silence, order, resolution, frugality, industry, sincerity, Justice, moderation, cleanliness, tranquility, chastity and humility. For the summary order he followed a little scheme of employing his time each day. From five to seven each morning he spent in bodily personal attention, saying a short prayer, thinking over the day’s business and resolutions, studying and eating breakfast. From eight till twelve he worked at his trade. From twelve to one he read or overlooked his accounts and dined. From two to five he worked at his trade. The rest of the evening until 10 he spent in music, or diversion of some sort.</p>
-					</blockquote>
+			<div>
+				<h2>My Skill</h2>
+				<div class="row my-4">
+					<div class="col-md-6">
+						<h3>My Professional Strengths</h3>
+						<p class="text-gray-light font-weight-medium h5 my-4">
+							“The strength of a man's virtue should not be measured by his special exertions, but by his habitual acts”
+						</p>
+						<blockquote class="skill-content pl-3 blockquote">
+							<p class="text-gray-light font-italic">My Professional Strengths Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit error culpa unde, esse quam quasi, necessitatibus voluptatem possimus, repellendus.</p>
+							<p class="text-gray-light font-italic">The other virtues practice in succession by Franklin were silence, order, resolution, frugality, industry, sincerity, Justice, moderation, cleanliness, tranquility, chastity and humility. For the summary order he followed a little scheme of employing his time each day. From five to seven each morning he spent in bodily personal attention, saying a short prayer, thinking over the day’s business and resolutions, studying and eating breakfast. From eight till twelve he worked at his trade. From twelve to one he read or overlooked his accounts and dined. From two to five he worked at his trade. The rest of the evening until 10 he spent in music, or diversion of some sort.</p>
+						</blockquote>
+					</div>
+					<div class="col-md-6">
+						<ul class="list-unstyled mb-3 d-inline-block w-100">
+							<li class="mb-3">
+								<p class="text-gray-light mb-1 font-weight-medium">
+									Web & Graphic Design
+								</p>
+								<div class="progress-bar d-inline-block w-100 mb-0">
+									<p class="bar bg-success float-left py-2 mb-0" style="width: 70%;">
+										<span class="font-weight-medium text-gray-light">70%</span>
+									</p>
+								</div>
+							</li>
+							<li class="mb-3">
+								<p class="text-gray-light mb-1 font-weight-medium">
+									HTML5 & CSS3
+								</p>
+								<div class="progress-bar d-inline-block w-100 mb-0">
+									<p class="bar bg-success float-left py-2 mb-0" style="width: 55%;">
+										<span class="font-weight-medium text-gray-light">55%</span>
+									</p>
+								</div>
+							</li>
+							<li class="mb-3">
+								<p class="text-gray-light mb-1 font-weight-medium">
+									JavaScript / JQuery
+								</p>
+								<div class="progress-bar d-inline-block w-100 mb-0">
+									<p class="bar bg-success float-left py-2 mb-0" style="width: 80%;">
+										<span class="font-weight-medium text-gray-light">80%</span>
+									</p>
+								</div>
+							</li>
+							<li class="mb-3">
+								<p class="text-gray-light mb-1 font-weight-medium">
+									PHP
+								</p>
+								<div class="progress-bar d-inline-block w-100 mb-0">
+									<p class="bar bg-success float-left py-2 mb-0" style="width: 65%;">
+										<span class="font-weight-medium text-gray-light">65%</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+						<ul class="skill-chart row list-unstyled my-4">
+							<li class="expand expand-left col-3 px-0">
+								<p class="text-gray-light mb-0 mt-1">Newbie</p>
+							</li>
+							<li class="expand expand-left col-3 px-0">
+								<p class="text-gray-light mb-0 mt-1">Decent</p>
+							</li>
+							<li class="expand expand-right col-3 px-0 text-right">
+								<p class="text-gray-light mb-0 mt-1">Pretty Good</p>
+							</li>
+							<li class="expand expand-right col-3 px-0 text-right">
+								<p class="text-gray-light mb-0 mt-1">Master</p>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<ul class="list-unstyled">
-						<li class="mb-3">
-							<p class="text-gray-light mb-1 font-weight-medium">
-								Web & Graphic Design
-							</p>
-							<div class="progress-bar d-inline-block w-100 mb-0">
-								<p class="bar bg-success float-left py-2 mb-0" style="width: 70%;">
-									<span class="font-weight-medium text-gray-light">70%</span>
-								</p>
-							</div>
-						</li>
-						<li class="mb-3">
-							<p class="text-gray-light mb-1 font-weight-medium">
-								HTML5 & CSS3
-							</p>
-							<div class="progress-bar d-inline-block w-100 mb-0">
-								<p class="bar bg-success float-left py-2 mb-0" style="width: 55%;">
-									<span class="font-weight-medium text-gray-light">55%</span>
-								</p>
-							</div>
-						</li>
-						<li class="mb-3">
-							<p class="text-gray-light mb-1 font-weight-medium">
-								JavaScript / JQuery
-							</p>
-							<div class="progress-bar d-inline-block w-100 mb-0">
-								<p class="bar bg-success float-left py-2 mb-0" style="width: 80%;">
-									<span class="font-weight-medium text-gray-light">80%</span>
-								</p>
-							</div>
-						</li>
-						<li class="mb-3">
-							<p class="text-gray-light mb-1 font-weight-medium">
-								PHP
-							</p>
-							<div class="progress-bar d-inline-block w-100 mb-0">
-								<p class="bar bg-success float-left py-2 mb-0" style="width: 65%;">
-									<span class="font-weight-medium text-gray-light">65%</span>
-								</p>
-							</div>
-						</li>
-					</ul>
+			</div>
+			<div>
+				<h2>Language skills</h2>
+				<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways.</p>
+				<div class="row my-4">
+					<div class="col-lg-3 col-md-6">
+						<div class="wrapper" data-anim="base wrapper">
+  <div class="circle" data-anim="base left"></div>
+  <div class="circle" data-anim="base right"></div>
+</div>
+					</div>
+					<div class="col-lg-3 col-md-6"></div>
+					<div class="col-lg-3 col-md-6"></div>
+					<div class="col-lg-3 col-md-6"></div>
 				</div>
 			</div>
 		</div>
