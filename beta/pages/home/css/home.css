@@ -95,6 +95,23 @@
     #service .service-block:hover .contact-btn span {
       line-height: 2.5rem; }
 
+#resume .resume-icon {
+  font-size: 2rem; }
+
+#skill .skill-content {
+  border-left: 3px solid #07cb79;
+  font-size: .875rem; }
+#skill .progress-bar {
+  background-color: #e9ecef; }
+  #skill .progress-bar .bar {
+    position: relative;
+    transition: 0.2s linear all; }
+    #skill .progress-bar .bar span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: -1.875rem; }
+
 @-webkit-keyframes fadebounce {
   0% {
     -moz-transform: translateY(0);

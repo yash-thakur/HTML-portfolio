@@ -142,8 +142,8 @@
 						<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures) as you notice that the idea of this exercise is to hypnotize yourself to be aware of two....</p>
 						<div class="contact-btn">
 							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
+								<span class="float-left">Read More...</span>
+								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
 						</div>
 					</div>
@@ -155,8 +155,8 @@
 						<p class="text-gray-light">Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated to change about yourself. Prior to running through this technique, just have a about...</p>
 						<div class="contact-btn">
 							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
+								<span class="float-left">Read More...</span>
+								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
 						</div>
 					</div>
@@ -168,8 +168,8 @@
 						<p class="text-gray-light">Then with that thing in mind, follow these simple steps. Step One: Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the moment and spend some time being still, quiet and drift inside of your mind... </p>
 						<div class="contact-btn">
 							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
+								<span class="float-left">Read More...</span>
+								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
 						</div>
 					</div>
@@ -181,8 +181,8 @@
 						<p class="text-gray-light">Become aware of the temperature, the sights, the sounds and enjoy walking along the path of your life. Make it sensory rich and get comfortable with the idea. Imagine the feeling of your feet walking along the path and the sound....</p>
 						<div class="contact-btn">
 							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
+								<span class="float-left">Read More...</span>
+								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
 						</div>
 					</div>
@@ -193,59 +193,184 @@
 		<div id="resume" class="py-5 px-md-5 px-3">
 			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">My Work Experience</div>
 			<h2>Resume</h2>
-			<h3>Experience :</h3>
+			<div class="py-4">
+				<h3>Experience :</h3>
+				<div class="row py-4">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-2">
+								<div class="resume-icon">
+									<span class="text-gray-light ti-ruler-pencil"></span>
+								</div>
+							</div>
+							<div class="resume-name col-10">
+								<h3 class="text-success">
+								Website Solutions Pvt. Ltd
+								</h3>
+								<span class="h5 text-gray-light font-weight-medium">2013 to present</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<h3>Front-End Development</h3>
+						<p class="text-gray-light">Quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="row py-4">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-2">
+								<div class="resume-icon">
+									<span class="text-gray-light ti-bookmark-alt"></span>
+								</div>
+							</div>
+							<div class="resume-name col-10">
+								<h3 class="text-success">
+								Global Solutions
+								</h3>
+								<span class="h5 text-gray-light font-weight-medium">
+									2010 to 2013
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<h3>UI/UX Design</h3>
+						<p class="text-gray-light">Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="row py-4">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-2">
+								<div class="resume-icon">
+									<span class="text-gray-light ti-calendar"></span>
+								</div>
+							</div>
+							<div class="resume-name col-10">
+								<h3 class="text-success">
+								Template Agency
+								</h3>
+								<span class="h5 text-gray-light font-weight-medium">
+									2009 to 2010
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<h3>Website production</h3>
+						<p class="text-gray-light">Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea.</p>
+					</div>
+				</div>
+			</div>
+			<div class="py-4">
+				<h3>Education:</h3>
+				<div class="row py-4">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-2">
+								<div class="resume-icon">
+									<span class="text-gray-light ti-crown"></span>
+								</div>
+							</div>
+							<div class="resume-name col-10">
+								<h3 class="text-success">
+								University of London
+								</h3>
+								<span class="h5 text-gray-light font-weight-medium">
+									2008 to 2009
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<h3>Computer science</h3>
+						<p class="text-gray-light">Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
+					</div>
+				</div>
+				<div class="row py-4">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-2">
+								<div class="resume-icon">
+									<span class="text-gray-light ti-thumb-up"></span>
+								</div>
+							</div>
+							<div class="resume-name col-10">
+								<h3 class="text-success">
+								Institue of art & Design
+								</h3>
+								<span class="h5 text-gray-light font-weight-medium">
+									2007 to 2009
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<h3>Software engineering</h3>
+						<p class="text-gray-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- skill section -->
+		<div id="skill" class="py-5 px-md-5 px-3">
+			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
+			<h2>My Skill</h2>
 			<div class="row my-4">
-				<div class="col-lg-3 col-md-6">
-					<div class="service-block">
-						<span class="service-icon text-gray-light ti-desktop"></span>
-						<h4 class="my-4">Tranding Design</h4>
-						<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures) as you notice that the idea of this exercise is to hypnotize yourself to be aware of two....</p>
-						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
-							</a>
-						</div>
-					</div>
+				<div class="col-md-6">
+					<h3>My Professional Strengths</h3>
+					<p class="text-gray-light font-weight-medium h5 my-4">
+						“The strength of a man's virtue should not be measured by his special exertions, but by his habitual acts”
+					</p>
+					<blockquote class="skill-content pl-3 blockquote">
+						<p class="text-gray-light font-italic">My Professional Strengths Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit error culpa unde, esse quam quasi, necessitatibus voluptatem possimus, repellendus.</p>
+						<p class="text-gray-light font-italic">The other virtues practice in succession by Franklin were silence, order, resolution, frugality, industry, sincerity, Justice, moderation, cleanliness, tranquility, chastity and humility. For the summary order he followed a little scheme of employing his time each day. From five to seven each morning he spent in bodily personal attention, saying a short prayer, thinking over the day’s business and resolutions, studying and eating breakfast. From eight till twelve he worked at his trade. From twelve to one he read or overlooked his accounts and dined. From two to five he worked at his trade. The rest of the evening until 10 he spent in music, or diversion of some sort.</p>
+					</blockquote>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="service-block">
-						<span class="service-icon text-gray-light ti-slice"></span>
-						<h4 class="my-4">Clear Code</h4>
-						<p class="text-gray-light">Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated to change about yourself. Prior to running through this technique, just have a about...</p>
-						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="service-block">
-						<span class="service-icon text-gray-light ti-brush-alt"></span>
-						<h4 class="my-4">App Design</h4>
-						<p class="text-gray-light">Then with that thing in mind, follow these simple steps. Step One: Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the moment and spend some time being still, quiet and drift inside of your mind... </p>
-						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="service-block">
-						<span class="service-icon text-gray-light ti-layout-media-center"></span>
-						<h4 class="my-4">UI/UX Design</h4>
-						<p class="text-gray-light">Become aware of the temperature, the sights, the sounds and enjoy walking along the path of your life. Make it sensory rich and get comfortable with the idea. Imagine the feeling of your feet walking along the path and the sound....</p>
-						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
-							<span class="float-left">Read More...</span>
-							<span class="ti-arrow-circle-right float-right"></span>
-							</a>
-						</div>
-					</div>
+				<div class="col-md-6">
+					<ul class="list-unstyled">
+						<li class="mb-3">
+							<p class="text-gray-light mb-1 font-weight-medium">
+								Web & Graphic Design
+							</p>
+							<div class="progress-bar d-inline-block w-100 mb-0">
+								<p class="bar bg-success float-left py-2 mb-0" style="width: 70%;">
+									<span class="font-weight-medium text-gray-light">70%</span>
+								</p>
+							</div>
+						</li>
+						<li class="mb-3">
+							<p class="text-gray-light mb-1 font-weight-medium">
+								HTML5 & CSS3
+							</p>
+							<div class="progress-bar d-inline-block w-100 mb-0">
+								<p class="bar bg-success float-left py-2 mb-0" style="width: 55%;">
+									<span class="font-weight-medium text-gray-light">55%</span>
+								</p>
+							</div>
+						</li>
+						<li class="mb-3">
+							<p class="text-gray-light mb-1 font-weight-medium">
+								JavaScript / JQuery
+							</p>
+							<div class="progress-bar d-inline-block w-100 mb-0">
+								<p class="bar bg-success float-left py-2 mb-0" style="width: 80%;">
+									<span class="font-weight-medium text-gray-light">80%</span>
+								</p>
+							</div>
+						</li>
+						<li class="mb-3">
+							<p class="text-gray-light mb-1 font-weight-medium">
+								PHP
+							</p>
+							<div class="progress-bar d-inline-block w-100 mb-0">
+								<p class="bar bg-success float-left py-2 mb-0" style="width: 65%;">
+									<span class="font-weight-medium text-gray-light">65%</span>
+								</p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
