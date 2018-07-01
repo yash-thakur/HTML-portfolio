@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff;
+  display: none; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #07cb79;
+  display: none; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  display: none; }
+
+body {
+  scrollbar-face-color: #07cb79;
+  scrollbar-track-color: #fff; }
+
 .banner-section {
   height: 100vh;
   line-height: 0; }
@@ -57,6 +74,8 @@
       -moz-animation: fadebounce 3s infinite;
       -o-animation: fadebounce 3s infinite;
       animation: fadebounce 3s infinite; }
+  .banner-section .person-name {
+    font-size: 5rem; }
 
 #about .social-icon {
   width: 2.5rem;
@@ -105,12 +124,22 @@
   background-color: #e9ecef; }
   #skill .progress-bar .bar {
     position: relative;
-    transition: 0.2s linear all; }
+    transition: 0.2s linear all;
+    -webkit-animation: skillbar 3s linear forwards;
+    -moz-animation: skillbar 3s linear forwards;
+    -o-animation: skillbar 3s linear forwards;
+    animation: skillbar 3s linear forwards; }
     #skill .progress-bar .bar span {
       position: absolute;
       bottom: 0;
       right: 0;
-      margin-bottom: -1.875rem; }
+      margin-bottom: -1.875rem;
+      -webkit-animation: barvalue 1s linear forwards;
+      -moz-animation: barvalue 1s linear forwards;
+      -o-animation: barvalue 1s linear forwards;
+      animation: barvalue 1s linear forwards;
+      animation-delay: 3s;
+      opacity: 0; }
 #skill .skill-chart {
   border-top: 1px solid #6c757d; }
   #skill .skill-chart .expand p {
@@ -127,6 +156,48 @@
     margin-left: 0; }
   #skill .skill-chart .expand.expand-right:before {
     margin-right: 0; }
+#skill .circular-progress-bar {
+  position: relative;
+  display: inline-block; }
+  #skill .circular-progress-bar:before, #skill .circular-progress-bar:after {
+    position: absolute;
+    font-weight: 600;
+    text-align: center;
+    color: #adb5bd;
+    font-size: 1.5rem;
+    width: 100%;
+    left: 0; }
+  #skill .circular-progress-bar:before {
+    content: attr(data-name);
+    bottom: 0;
+    margin-bottom: -5rem; }
+  #skill .circular-progress-bar:after {
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    content: attr(data-percent) "%";
+    top: 50%; }
+  #skill .circular-progress-bar .circle {
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+    #skill .circular-progress-bar .circle .progress-meter,
+    #skill .circular-progress-bar .circle .progress-value {
+      fill: none; }
+    #skill .circular-progress-bar .circle .progress-meter {
+      stroke: #e9ecef; }
+    #skill .circular-progress-bar .circle .progress-value {
+      stroke: #07cb79;
+      stroke-linecap: round;
+      transition: 0.3s all linear;
+      -webkit-animation: lefttoright 3s linear forwards;
+      -moz-animation: lefttoright 3s linear forwards;
+      -o-animation: lefttoright 3s linear forwards;
+      animation: lefttoright 3s linear forwards; }
 
 @-webkit-keyframes fadebounce {
   0% {
@@ -216,67 +287,57 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1; } }
+@-webkit-keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@-moz-keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@-o-keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@keyframes lefttoright {
+  0% {
+    stroke-dashoffset: 446.106; } }
+@-webkit-keyframes skillbar {
+  0% {
+    width: 0%; } }
+@-moz-keyframes skillbar {
+  0% {
+    width: 0%; } }
+@-o-keyframes skillbar {
+  0% {
+    width: 0%; } }
+@keyframes skillbar {
+  0% {
+    width: 0%; } }
+@-webkit-keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes barvalue {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @media (max-width: 767.98px) {
   .banner-section {
-    padding-top: 3rem; } }
-.wrapper {
-  width: 100px;
-  /* Set the size of the progress bar */
-  height: 100px;
-  position: absolute;
-  /* Enable clipping */
-  clip: rect(0px, 100px, 100px, 50px);
-  /* Hide half of the progress bar */ }
+    padding-top: 3rem; }
+    .banner-section .person-name {
+      font-size: 2.5rem; }
+    .banner-section .banner-title,
+    .banner-section .typing-text {
+      font-size: 1.5rem; } }
 
-/* Set the sizes of the elements that make up the progress bar */
-.circle {
-  width: 80px;
-  height: 80px;
-  border: 10px solid green;
-  border-radius: 50px;
-  position: absolute;
-  clip: rect(0px, 50px, 100px, 0px); }
-
-div[data-anim~=base] {
-  -webkit-animation-iteration-count: 1;
-  /* Only run once */
-  -webkit-animation-fill-mode: forwards;
-  /* Hold the last keyframe */
-  -webkit-animation-timing-function: linear;
-  /* Linear animation */ }
-
-.wrapper[data-anim~=wrapper] {
-  -webkit-animation-duration: 0.01s;
-  /* Complete keyframes asap */
-  -webkit-animation-delay: 3s;
-  /* Wait half of the animation */
-  -webkit-animation-name: close-wrapper;
-  /* Keyframes name */ }
-
-.circle[data-anim~=left] {
-  -webkit-animation-duration: 6s;
-  /* Full animation time */
-  -webkit-animation-name: left-spin; }
-
-.circle[data-anim~=right] {
-  -webkit-animation-duration: 3s;
-  /* Half animation time */
-  -webkit-animation-name: right-spin; }
-
-@-webkit-keyframes right-spin {
-  from {
-    -webkit-transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(180deg); } }
-/* Rotate the left side of the progress bar from 0 to 360 degrees */
-@-webkit-keyframes left-spin {
-  from {
-    -webkit-transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg); } }
-/* Set the wrapper clip to auto, effectively removing the clip */
-@-webkit-keyframes close-wrapper {
-  to {
-    clip: rect(auto, auto, auto, auto); } }
-
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=main.css.map */

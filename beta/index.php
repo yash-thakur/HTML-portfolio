@@ -14,7 +14,7 @@
       <div class="p-3">
         <h1>Pages</h1>
         <ul>
-          <li><a href="pages/home/home.php" target="_blank">Home Page</a></li>
+          <li><a href="pages/main/main.php" target="_blank">Main Page</a></li>
         </ul>
       </div>
     </div>

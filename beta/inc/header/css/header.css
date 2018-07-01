@@ -1,3 +1,18 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff;
+  position: absolute; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #07cb79; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff; }
+
+body {
+  scrollbar-face-color: #07cb79;
+  scrollbar-track-color: #fff; }
+
 .site-header .left-sidebar {
   position: fixed;
   top: 0;
@@ -59,26 +74,10 @@
 .site-header .sub-menu.open .dropdown-menu {
   display: block; }
 
-.scroll::-webkit-scrollbar {
-  width: 6px;
-  background-color: #343a40;
-  display: none; }
-  .scroll::-webkit-scrollbar:hover {
-    display: block; }
-
-.scroll::-webkit-scrollbar-thumb {
-  background-color: #07cb79;
-  visibility: hidden;
-  display: none; }
-  .scroll::-webkit-scrollbar-thumb:hover {
-    display: block; }
-
-#scroll::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #495057;
-  display: none; }
-  #scroll::-webkit-scrollbar-track:hover {
-    display: block; }
+.scroll ::-webkit-scrollbar {
+  background-color: #343a40; }
+.scroll ::-webkit-scrollbar-track {
+  background-color: #343a40; }
 
 @media (max-width: 767.98px) {
   .site-header {

@@ -1,5 +1,5 @@
 <?php include_once '../../inc/head.php';?>
-<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 <div class="row flex-xl-nowrap mx-0">
@@ -9,13 +9,13 @@
 		<div id="home" class="banner-section">
 			<div class="bg-img" style="background-image: url('../../../images/bg.jpg');">
 				<div class="content">
-					<h1 class="text-uppercase text-white">Hello I 'm
-					<span class="d-block">
-						Sam Martin
+					<h1 class="banner-title h2 text-uppercase text-white">Hello I 'm
+					<span class="person-name d-block font-weight-bold">
+						Yash Thakur
 					</span>
 					</h1>
-					<div class="h1 typing-text text-uppercase text-white">Frontend developer</div>
-					<button class="btn btn-success text-uppercase px-4">Download my cv</button>
+					<div class="typing-text h2 text-uppercase text-white">Frontend developer</div>
+					<button class="btn btn-success text-uppercase px-4 mt-3">Download my cv</button>
 				</div>
 				<a href="#about" class="scroll-down">
 					<span></span>
@@ -316,7 +316,7 @@
 		<!-- skill section -->
 		<div id="skill" class="py-5 px-md-5 px-3">
 			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
-			<div>
+			<div class="py-4">
 				<h2>My Skill</h2>
 				<div class="row my-4">
 					<div class="col-md-6">
@@ -389,20 +389,105 @@
 					</div>
 				</div>
 			</div>
-			<div>
+			<div class="py-4">
 				<h2>Language skills</h2>
 				<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways.</p>
-				<div class="row my-4">
-					<div class="col-lg-3 col-md-6">
-						<div class="wrapper" data-anim="base wrapper">
-  <div class="circle" data-anim="base left"></div>
-  <div class="circle" data-anim="base right"></div>
-</div>
+				<div class="row py-4">
+					<div class="col-lg-3 col-md-6 py-3">
+						<div class="circular-progress-bar" data-percent="80" data-name="English Experienced">
+							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
+								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
+								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
+				            </svg>
+						</div>
 					</div>
-					<div class="col-lg-3 col-md-6"></div>
-					<div class="col-lg-3 col-md-6"></div>
-					<div class="col-lg-3 col-md-6"></div>
+					<div class="col-lg-3 col-md-6 py-3">
+						<div class="circular-progress-bar" data-percent="70" data-name="French Advanced">
+							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
+								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
+								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
+				            </svg>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 py-3">
+						<div class="circular-progress-bar" data-percent="65" data-name="Spanish Basic">
+							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
+								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
+								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
+				            </svg>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 py-3">
+						<div class="circular-progress-bar" data-percent="90" data-name="German Basic">
+							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
+								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
+								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
+				            </svg>
+						</div>
+					</div>
 				</div>
+			</div>
+			<div class="py-5">
+				<h2>Knowledge</h2>
+				<p class="text-gray-light">Auis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Web design and development</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Strong creative skills</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Cultivate a design sense</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Multimedia design</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>The ability to pay attention to detail</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Right balance of tools</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Digital media development</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Ability to work to deadlines</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Approach every new skill</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Interactive computing</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Comfortable with a CMS</span>
+					</div>
+					<div class="col-md-4 col-sm-6 py-1">
+						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span>Good business management</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio section -->
+		<div id="portfolio" class="py-5 px-md-5 px-3">
+			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">My Featured Work</div>
+			<h2>My Portfolio</h2>
+			<div class="py-4">
+				
 			</div>
 		</div>
 	</main>

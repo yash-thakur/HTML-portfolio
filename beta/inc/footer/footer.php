@@ -30,5 +30,29 @@
 		      });
 		    } // End if
 	  	});
-   });
+
+	});
+</script>
+<!-- Circular Progress Bar -->
+<script type="text/javascript">
+	var progressValue = document.querySelectorAll('.progress-value');
+	var RADIUS = 71;
+	var CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+	var elements = document.getElementsByClassName('circular-progress-bar');
+	for (var i = 0; i < elements.length; i++){
+		var value = elements[i].dataset.percent;
+        function progress(value) {
+		
+		var progress = value / 100;
+		var dashoffset = CIRCUMFERENCE * (1 - progress);
+		
+		console.log('progress:', value + '%', '|', 'offset:', dashoffset)
+		
+		progressValue[i].style.strokeDashoffset = dashoffset;
+		
+		}
+		progressValue[i].style.strokeDasharray = CIRCUMFERENCE;
+		progress(value);
+	}
+   
 </script>
