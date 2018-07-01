@@ -3,7 +3,7 @@ header -->
 <header class="site-header col-md-3 col-xl-2">
 	<div class="header-bar d-flex align-items-center d-md-none">
 		<h4 class="font-weight-bold mb-0">
-			<a href="#" class="text-uppercase text-white">sam martin</a>
+			<a href="#" class="text-uppercase text-white">Yash Thakur</a>
 		</h4>
 		<button class="toggle-btn btn btn-link p-0" type="button">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>

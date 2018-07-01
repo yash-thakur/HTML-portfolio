@@ -1,13 +1,15 @@
 ::-webkit-scrollbar {
   width: 6px;
   background-color: #fff;
-  position: absolute; }
+  display: none; }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #07cb79; }
+  background-color: #07cb79;
+  display: none; }
 
 ::-webkit-scrollbar-track {
-  background-color: #fff; }
+  background-color: #fff;
+  display: none; }
 
 body {
   scrollbar-face-color: #07cb79;
@@ -103,7 +105,8 @@ body {
     .site-header .left-sidebar {
       margin-left: -14.375rem;
       transition: 0.3s all linear;
-      width: 14.375rem; }
+      width: 14.375rem;
+      top: 3rem; }
     .site-header.open .left-sidebar {
       margin-left: 0; }
     .site-header.open .toggle-btn {

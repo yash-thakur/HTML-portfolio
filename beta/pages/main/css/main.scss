@@ -130,7 +130,7 @@
                 right: 0;
                 margin-bottom: -1.875rem;
                 @include animation(barvalue 1s linear forwards);
-                animation-delay:3s;
+                animation-delay: 3s;
                 opacity: 0;
             }
         }
@@ -165,7 +165,6 @@
     .circular-progress-bar {
         position: relative;
         display: inline-block;
-        &:before,
         &:after {
             position: absolute;
             font-weight: 600;
@@ -174,13 +173,6 @@
             font-size: 1.5rem;
             width: 100%;
             left: 0;
-        }
-        &:before {
-            content: attr(data-name);
-            bottom: 0;
-            margin-bottom: -5rem;
-        }
-        &:after {
             @include transform(translate(0, -50%));
             content: attr(data-percent) '%';
             top: 50%;
@@ -199,6 +191,97 @@
                 stroke-linecap: round;
                 @include transition(.3s all linear);
                 @include animation(lefttoright 3s linear forwards);
+            }
+        }
+    }
+}
+
+#portfolio {
+    .button {
+        color: $gray-700;
+        font-size: 1.2rem;
+        font-weight: 600;
+        &.is-checked {
+            color: $green;
+        }
+        @include hover-focus-active {
+            text-decoration: none;
+            box-shadow: none;
+        }
+    }
+    .portfolio-item {
+        .item {
+            -webkit-perspective: 1700px;
+            -moz-perspective: 1700px;
+            perspective: 1700px;
+            -webkit-perspective-origin: 0 50%;
+            -moz-perspective-origin: 0 50%;
+            perspective-origin: 0 50%;
+        }
+        .item-info {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            background-color: $gray-700;
+            color: $green;
+            height: 100%;
+            width: 50%;
+            opacity: 0;
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+            transform-origin: 0 0;
+            @include transform(rotateY(-90deg));
+            @include transition(transform .4s, opacity .1s .3s);
+            a {
+                font-size: 1rem;
+            }
+            span {
+                color: $green;
+                font-size: .875rem;
+                text-transform: capitalize;
+            }
+            .item-link {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin: 0 1.25rem 1.25rem 0;
+            }
+        }
+        .item-hover {
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            .item-inner {
+                overflow: hidden;
+            }
+            img {
+                @include transition(transform .4s);
+            }
+            &:hover {
+                img {
+                    @include transform(translateX(25%));
+                }
+                .item-info {
+                    opacity: 1;
+                    @include transform(rotateY(0deg));
+                    @include transition(transform .4s, opacity .1s);
+                }
+            }
+        }
+        .small-icon {
+            background-color: $green;
+            span {
+                color: $white;
+            }
+            @include hover-focus-active {
+                background-color: $white;
+                span {
+                    color: $green;
+                }
             }
         }
     }
@@ -224,11 +307,13 @@
         stroke-dashoffset: 446.106;
     }
 }
+
 @include keyframes(skillbar) {
     0% {
         width: 0%;
     }
 }
+
 @include keyframes(barvalue) {
     0% {
         opacity: 0;

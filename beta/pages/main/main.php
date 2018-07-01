@@ -25,9 +25,9 @@
 		<!-- about section -->
 		<div id="about" class="py-5 px-md-5 px-3">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4 py-2">
 					<div class="about-img">
-						<img src="../../../images/me.jpg" alt="User" class="mw-100" />
+						<img src="../../../images/me.jpg" alt="User" class="w-100 mw-100" />
 					</div>
 					<div class="about-social bg-success text-center p-3 text-center">
 						<a href="#" class="social-icon d-inline-flex align-items-center justify-content-center m-1">
@@ -53,7 +53,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-8">
+				<div class="col-lg-8 py-2">
 					<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">Know about me</div>
 					<h2>About Me</h2>
 					<div class="row mx-0 my-4">
@@ -135,7 +135,7 @@
 			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">What i can do better</div>
 			<h2>Services</h2>
 			<div class="row my-4">
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-3 col-md-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-desktop"></span>
 						<h4 class="my-4">Tranding Design</h4>
@@ -148,7 +148,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-3 col-md-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-slice"></span>
 						<h4 class="my-4">Clear Code</h4>
@@ -161,7 +161,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-3 col-md-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-brush-alt"></span>
 						<h4 class="my-4">App Design</h4>
@@ -174,7 +174,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-3 col-md-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-layout-media-center"></span>
 						<h4 class="my-4">UI/UX Design</h4>
@@ -196,14 +196,14 @@
 			<div class="py-4">
 				<h3>Experience :</h3>
 				<div class="row py-4">
-					<div class="col-md-4">
+					<div class="col-md-4 py-1">
 						<div class="row">
-							<div class="col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-ruler-pencil"></span>
 								</div>
 							</div>
-							<div class="resume-name col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
 								<h3 class="text-success">
 								Website Solutions Pvt. Ltd
 								</h3>
@@ -211,20 +211,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 py-1">
 						<h3>Front-End Development</h3>
 						<p class="text-gray-light">Quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
 				<div class="row py-4">
-					<div class="col-md-4">
+					<div class="col-md-4 py-1">
 						<div class="row">
-							<div class="col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-bookmark-alt"></span>
 								</div>
 							</div>
-							<div class="resume-name col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
 								<h3 class="text-success">
 								Global Solutions
 								</h3>
@@ -234,20 +234,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 py-1">
 						<h3>UI/UX Design</h3>
 						<p class="text-gray-light">Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
 				<div class="row py-4">
-					<div class="col-md-4">
+					<div class="col-md-4 py-1">
 						<div class="row">
-							<div class="col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-calendar"></span>
 								</div>
 							</div>
-							<div class="resume-name col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
 								<h3 class="text-success">
 								Template Agency
 								</h3>
@@ -257,7 +257,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 py-1">
 						<h3>Website production</h3>
 						<p class="text-gray-light">Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea.</p>
 					</div>
@@ -266,14 +266,14 @@
 			<div class="py-4">
 				<h3>Education:</h3>
 				<div class="row py-4">
-					<div class="col-md-4">
+					<div class="col-md-4 py-1">
 						<div class="row">
-							<div class="col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-crown"></span>
 								</div>
 							</div>
-							<div class="resume-name col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
 								<h3 class="text-success">
 								University of London
 								</h3>
@@ -283,20 +283,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 py-1">
 						<h3>Computer science</h3>
 						<p class="text-gray-light">Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
 					</div>
 				</div>
 				<div class="row py-4">
-					<div class="col-md-4">
+					<div class="col-md-4 py-1">
 						<div class="row">
-							<div class="col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-thumb-up"></span>
 								</div>
 							</div>
-							<div class="resume-name col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
 								<h3 class="text-success">
 								Institue of art & Design
 								</h3>
@@ -306,7 +306,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 py-1">
 						<h3>Software engineering</h3>
 						<p class="text-gray-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
@@ -372,7 +372,7 @@
 								</div>
 							</li>
 						</ul>
-						<ul class="skill-chart row list-unstyled my-4">
+						<ul class="skill-chart row list-unstyled my-4 mx-0">
 							<li class="expand expand-left col-3 px-0">
 								<p class="text-gray-light mb-0 mt-1">Newbie</p>
 							</li>
@@ -393,89 +393,93 @@
 				<h2>Language skills</h2>
 				<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways.</p>
 				<div class="row py-4">
-					<div class="col-lg-3 col-md-6 py-3">
-						<div class="circular-progress-bar" data-percent="80" data-name="English Experienced">
+					<div class="col-lg-3 col-sm-6 py-3 text-center">
+						<div class="circular-progress-bar" data-percent="80">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
 								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
-				            </svg>
+							</svg>
 						</div>
+						<h5 class="text-gray-light font-weight-medium my-3">English Experienced</h5>
 					</div>
-					<div class="col-lg-3 col-md-6 py-3">
-						<div class="circular-progress-bar" data-percent="70" data-name="French Advanced">
+					<div class="col-lg-3 col-sm-6 py-3 text-center">
+						<div class="circular-progress-bar" data-percent="70">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
 								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
-				            </svg>
+							</svg>
 						</div>
+						<h5 class="text-gray-light font-weight-medium my-3">French Advanced</h5>
 					</div>
-					<div class="col-lg-3 col-md-6 py-3">
-						<div class="circular-progress-bar" data-percent="65" data-name="Spanish Basic">
+					<div class="col-lg-3 col-sm-6 py-3 text-center">
+						<div class="circular-progress-bar" data-percent="65">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
 								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
-				            </svg>
+							</svg>
 						</div>
+						<h5 class="text-gray-light font-weight-medium my-3">Spanish Basic</h5>
 					</div>
-					<div class="col-lg-3 col-md-6 py-3">
-						<div class="circular-progress-bar" data-percent="90" data-name="German Basic">
+					<div class="col-lg-3 col-sm-6 py-3 text-center">
+						<div class="circular-progress-bar" data-percent="90">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
 								<circle class="progress-value" cx="75" cy="75" r="71" stroke-width="8" />
-				            </svg>
+							</svg>
 						</div>
+						<h5 class="text-gray-light font-weight-medium my-3">German Basic</h5>
 					</div>
 				</div>
 			</div>
-			<div class="py-5">
+			<div class="py-4">
 				<h2>Knowledge</h2>
 				<p class="text-gray-light">Auis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 				<div class="row">
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Web design and development</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Strong creative skills</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Cultivate a design sense</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Multimedia design</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>The ability to pay attention to detail</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Right balance of tools</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Digital media development</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Ability to work to deadlines</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Approach every new skill</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Interactive computing</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Comfortable with a CMS</span>
 					</div>
-					<div class="col-md-4 col-sm-6 py-1">
+					<div class="col-lg-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-success"></span>
 						<span>Good business management</span>
 					</div>
@@ -487,7 +491,211 @@
 			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">My Featured Work</div>
 			<h2>My Portfolio</h2>
 			<div class="py-4">
-				
+				<div>
+					<div class="button-group filters-button-group">
+						<button class="button btn btn-link px-0 is-checked" data-filter="*">
+						View All
+						<span class="px-2">/</span>
+						</button>
+						<button class="button btn btn-link px-0" data-filter=".web-design">
+						Web Design
+						<span class="px-2">/</span>
+						</button>
+						<button class="button btn btn-link px-0" data-filter=".graphic-design">			Graphic Design
+						<span class="px-2">/</span>
+						</button>
+						<button class="button btn btn-link px-0" data-filter=".website-templates">
+						Website Templates
+						<span class="px-2">/</span>
+						</button>
+					</div>
+					<div class="grid row my-4">
+						<div class="col-xl-3 col-sm-6 py-3 element-item web-design graphic-design">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/01.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item web-design">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/02.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item website-templates">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/03.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item graphic-design">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/04.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item web-design">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/05.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/06.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item website-templates">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/07.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-sm-6 py-3 element-item website-templates">
+							<div class="portfolio-item">
+								<div class="item">
+									<div class="item-hover">
+										<div class="item-inner">
+											<img class="mw-100" src="../../../images/portfolio/08.jpg" alt="">
+										</div>
+										<div class="item-info">
+											<a href="#" class="text-white text-capitalize">Work item one</a>
+											<span class="text-success d-block">by Sam Martin</span>
+											<div class="item-link">
+												<a class="small-icon btn" href="images/portfolio/01.jpg">
+													<span class="ti-plus"></span>
+												</a>
+												<a class="small-icon btn" href="portfolio-single.html">
+													<span class="ti-link"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>

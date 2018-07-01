@@ -126,6 +126,7 @@ $left-sidebar-width: 14.375rem;
             margin-left: -$left-sidebar-width;
             @include transition(.3s all linear);
             width: $left-sidebar-width;
+            top: 3rem;
         }
         &.open {
             .left-sidebar {

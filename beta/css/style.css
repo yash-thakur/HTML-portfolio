@@ -313,6 +313,9 @@ template {
 [hidden] {
   display: none !important; }
 
+@media (max-width: 575.98px) {
+  html {
+    font-size: 14px; } }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
