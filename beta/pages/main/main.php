@@ -4,7 +4,7 @@
 <body>
 <div class="row flex-xl-nowrap mx-0">
 	<?php include_once '../../inc/header/header.php';?>
-	<main class="col-12 col-md-9 col-xl-10 p-0">
+	<main class="col-12 col-lg-9 col-xl-10 p-0">
 		<!-- banner-section -->
 		<div id="home" class="banner-section">
 			<div class="bg-img" style="background-image: url('../../../images/bg.jpg');">
@@ -23,9 +23,9 @@
 			</div>
 		</div>
 		<!-- about section -->
-		<div id="about" class="py-5 px-md-5 px-3">
-			<div class="row">
-				<div class="col-lg-4 py-2">
+		<div id="about" class="py-md-5 px-xl-5 px-md-3 p-3">
+			<div class="row mx-0">
+				<div class="col-xl-4 col-lg-6 col-md-4 py-2">
 					<div class="about-img">
 						<img src="../../../images/me.jpg" alt="User" class="w-100 mw-100" />
 					</div>
@@ -53,11 +53,11 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-8 py-2">
+				<div class="col-xl-8 col-lg-6 col-md-8 py-2">
 					<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">Know about me</div>
 					<h2>About Me</h2>
 					<div class="row mx-0 my-4">
-						<div class="col-lg-4 col-md-6 px-md-0 py-3">
+						<div class="col-xl-4 col-lg-6 col-sm-6 px-md-0 py-3">
 							<div class="icons d-inline-block align-top pr-3">
 								<i class="ti-user"></i>
 							</div>
@@ -66,7 +66,7 @@
 								<p class="text-gray-light font-weight-medium">Sam Martin</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 px-md-0 py-3">
+						<div class="col-xl-4 col-lg-6 col-sm-6 px-md-0 py-3">
 							<div class="icons d-inline-block align-top pr-3">
 								<i class="ti-email"></i>
 							</div>
@@ -75,7 +75,7 @@
 								<p class="text-gray-light font-weight-medium">sam@website.com</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 px-md-0 py-3">
+						<div class="col-xl-4 col-lg-6 col-sm-6 px-md-0 py-3">
 							<div class="icons d-inline-block align-top pr-3">
 								<i class="ti-mobile"></i>
 							</div>
@@ -84,7 +84,7 @@
 								<p class="text-gray-light font-weight-medium">(123)-456-7890</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 px-md-0 py-3">
+						<div class="col-xl-4 col-lg-6 col-sm-6 px-md-0 py-3">
 							<div class="icons d-inline-block align-top pr-3">
 								<i class="ti-calendar"></i>
 							</div>
@@ -96,7 +96,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 px-md-0 py-3">
+						<div class="col-xl-4 col-lg-6 col-sm-6 px-md-0 py-3">
 							<div class="icons d-inline-block align-top pr-3">
 								<i class="ti-direction-alt"></i>
 							</div>
@@ -108,7 +108,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 px-md-0 py-3">
+						<div class="col-xl-4 col-lg-6 col-sm-6 px-md-0 py-3">
 							<div class="icons d-inline-block align-top pr-3">
 								<i class="ti-flag-alt-2"></i>
 							</div>
@@ -131,11 +131,11 @@
 			</div>
 		</div>
 		<!-- service section -->
-		<div id="service" class="py-5 px-md-5 px-3">
+		<div id="service" class="py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">What i can do better</div>
 			<h2>Services</h2>
-			<div class="row my-4">
-				<div class="col-lg-3 col-md-6 py-2">
+			<div class="row my-4 mx-0">
+				<div class="col-xl-3 col-lg-6 col-sm-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-desktop"></span>
 						<h4 class="my-4">Tranding Design</h4>
@@ -148,7 +148,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 py-2">
+				<div class="col-xl-3 col-lg-6 col-sm-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-slice"></span>
 						<h4 class="my-4">Clear Code</h4>
@@ -161,7 +161,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 py-2">
+				<div class="col-xl-3 col-lg-6 col-sm-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-brush-alt"></span>
 						<h4 class="my-4">App Design</h4>
@@ -174,7 +174,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 py-2">
+				<div class="col-xl-3 col-lg-6 col-sm-6 py-2">
 					<div class="service-block">
 						<span class="service-icon text-gray-light ti-layout-media-center"></span>
 						<h4 class="my-4">UI/UX Design</h4>
@@ -190,14 +190,14 @@
 			</div>
 		</div>
 		<!-- Resume section -->
-		<div id="resume" class="py-5 px-md-5 px-3">
+		<div id="resume" class="py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Work Experience</div>
 			<h2>Resume</h2>
 			<div class="py-4">
 				<h3>Experience :</h3>
-				<div class="row py-4">
-					<div class="col-md-4 py-1">
-						<div class="row">
+				<div class="row py-4 mx-0">
+					<div class="col-md-4 py-1 px-md-3 px-0">
+						<div class="row mx-0">
 							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-ruler-pencil"></span>
@@ -211,14 +211,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1">
+					<div class="col-md-8 py-1 px-md-3 px-0">
 						<h3>Front-End Development</h3>
 						<p class="text-gray-light">Quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
-				<div class="row py-4">
-					<div class="col-md-4 py-1">
-						<div class="row">
+				<div class="row py-4 mx-0">
+					<div class="col-md-4 py-1 px-md-3 px-0">
+						<div class="row mx-0">
 							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-bookmark-alt"></span>
@@ -234,14 +234,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1">
+					<div class="col-md-8 py-1 px-md-3 px-0">
 						<h3>UI/UX Design</h3>
 						<p class="text-gray-light">Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
-				<div class="row py-4">
-					<div class="col-md-4 py-1">
-						<div class="row">
+				<div class="row py-4 mx-0">
+					<div class="col-md-4 py-1 px-md-3 px-0">
+						<div class="row mx-0">
 							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-calendar"></span>
@@ -257,7 +257,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1">
+					<div class="col-md-8 py-1 px-md-3 px-0">
 						<h3>Website production</h3>
 						<p class="text-gray-light">Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea.</p>
 					</div>
@@ -265,9 +265,9 @@
 			</div>
 			<div class="py-4">
 				<h3>Education:</h3>
-				<div class="row py-4">
-					<div class="col-md-4 py-1">
-						<div class="row">
+				<div class="row py-4 mx-0">
+					<div class="col-md-4 py-1 px-md-3 px-0">
+						<div class="row mx-0">
 							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-crown"></span>
@@ -283,14 +283,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1">
+					<div class="col-md-8 py-1 px-md-3 px-0">
 						<h3>Computer science</h3>
 						<p class="text-gray-light">Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
 					</div>
 				</div>
-				<div class="row py-4">
-					<div class="col-md-4 py-1">
-						<div class="row">
+				<div class="row py-4 mx-0">
+					<div class="col-md-4 py-1 px-md-3 px-0">
+						<div class="row mx-0">
 							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-thumb-up"></span>
@@ -306,7 +306,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1">
+					<div class="col-md-8 py-1 px-md-3 px-0">
 						<h3>Software engineering</h3>
 						<p class="text-gray-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
@@ -314,12 +314,12 @@
 			</div>
 		</div>
 		<!-- skill section -->
-		<div id="skill" class="py-5 px-md-5 px-3">
+		<div id="skill" class="py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
 			<div class="py-4">
 				<h2>My Skill</h2>
-				<div class="row my-4">
-					<div class="col-md-6">
+				<div class="row my-4 mx-0">
+					<div class="col-md-6 py-2">
 						<h3>My Professional Strengths</h3>
 						<p class="text-gray-light font-weight-medium h5 my-4">
 							“The strength of a man's virtue should not be measured by his special exertions, but by his habitual acts”
@@ -329,7 +329,7 @@
 							<p class="text-gray-light font-italic">The other virtues practice in succession by Franklin were silence, order, resolution, frugality, industry, sincerity, Justice, moderation, cleanliness, tranquility, chastity and humility. For the summary order he followed a little scheme of employing his time each day. From five to seven each morning he spent in bodily personal attention, saying a short prayer, thinking over the day’s business and resolutions, studying and eating breakfast. From eight till twelve he worked at his trade. From twelve to one he read or overlooked his accounts and dined. From two to five he worked at his trade. The rest of the evening until 10 he spent in music, or diversion of some sort.</p>
 						</blockquote>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 py-2">
 						<ul class="list-unstyled mb-3 d-inline-block w-100">
 							<li class="mb-3">
 								<p class="text-gray-light mb-1 font-weight-medium">
@@ -392,8 +392,8 @@
 			<div class="py-4">
 				<h2>Language skills</h2>
 				<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways.</p>
-				<div class="row py-4">
-					<div class="col-lg-3 col-sm-6 py-3 text-center">
+				<div class="row py-4 mx-0">
+					<div class="col-md-3 col-sm-6 py-3 text-center">
 						<div class="circular-progress-bar" data-percent="80">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
@@ -402,7 +402,7 @@
 						</div>
 						<h5 class="text-gray-light font-weight-medium my-3">English Experienced</h5>
 					</div>
-					<div class="col-lg-3 col-sm-6 py-3 text-center">
+					<div class="col-md-3 col-sm-6 py-3 text-center">
 						<div class="circular-progress-bar" data-percent="70">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
@@ -411,7 +411,7 @@
 						</div>
 						<h5 class="text-gray-light font-weight-medium my-3">French Advanced</h5>
 					</div>
-					<div class="col-lg-3 col-sm-6 py-3 text-center">
+					<div class="col-md-3 col-sm-6 py-3 text-center">
 						<div class="circular-progress-bar" data-percent="65">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
@@ -420,7 +420,7 @@
 						</div>
 						<h5 class="text-gray-light font-weight-medium my-3">Spanish Basic</h5>
 					</div>
-					<div class="col-lg-3 col-sm-6 py-3 text-center">
+					<div class="col-md-3 col-sm-6 py-3 text-center">
 						<div class="circular-progress-bar" data-percent="90">
 							<svg class="circle" width="150" height="150" viewBox="0 0 150 150">
 								<circle class="progress-meter" cx="75" cy="75" r="71" stroke-width="8" />
@@ -434,52 +434,52 @@
 			<div class="py-4">
 				<h2>Knowledge</h2>
 				<p class="text-gray-light">Auis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-				<div class="row">
-					<div class="col-lg-4 col-sm-6 py-1">
+				<div class="row mx-0">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Web design and development</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Strong creative skills</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Cultivate a design sense</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Multimedia design</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>The ability to pay attention to detail</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Right balance of tools</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Digital media development</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Ability to work to deadlines</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Approach every new skill</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Interactive computing</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Comfortable with a CMS</span>
 					</div>
-					<div class="col-lg-4 col-sm-6 py-1">
+					<div class="col-md-4 col-sm-6 py-1">
 						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Good business management</span>
 					</div>
@@ -487,7 +487,7 @@
 			</div>
 		</div>
 		<!-- Portfolio section -->
-		<div id="portfolio" class="py-5 px-md-5 px-3">
+		<div id="portfolio" class="py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Featured Work</div>
 			<h2>My Portfolio</h2>
 			<div class="py-4">
@@ -509,8 +509,8 @@
 						<span class="px-2">/</span>
 						</button>
 					</div>
-					<div class="grid row my-4">
-						<div class="col-xl-3 col-sm-6 py-3 element-item web-design graphic-design">
+					<div class="grid row my-4 mx-0">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item web-design graphic-design">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -533,7 +533,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item web-design">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item web-design">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -556,7 +556,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item website-templates">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item website-templates">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -579,7 +579,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item graphic-design">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item graphic-design">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -602,7 +602,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item web-design">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item web-design">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -625,7 +625,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -648,7 +648,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item website-templates">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item website-templates">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -671,7 +671,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3 col-sm-6 py-3 element-item website-templates">
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 p-sm-2 p-3 element-item website-templates">
 							<div class="portfolio-item">
 								<div class="item">
 									<div class="item-hover">
@@ -697,6 +697,10 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<!-- blog -->
+		<div id="blog" class="py-md-5 px-xl-5 px-md-3 p-3">
+			
 		</div>
 	</main>
 	<?php include_once '../../inc/footer/footer.php';?>

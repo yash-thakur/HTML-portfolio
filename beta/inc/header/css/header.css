@@ -1,17 +1,3 @@
-::-webkit-scrollbar {
-  width: 6px;
-  background-color: #fff; }
-
-::-webkit-scrollbar-thumb {
-  background-color: #26ade4; }
-
-::-webkit-scrollbar-track {
-  background-color: #fff; }
-
-body {
-  scrollbar-face-color: #26ade4;
-  scrollbar-track-color: #fff; }
-
 .site-header .logo {
   display: inline-flex;
   justify-content: center;
@@ -79,7 +65,7 @@ body {
 .site-header .sub-menu.open .dropdown-menu {
   display: block; }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .site-header {
     position: fixed;
     top: 0;

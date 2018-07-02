@@ -1,7 +1,7 @@
 <!--=================================
 header -->
-<header class="site-header col-md-3 col-xl-2">
-	<div class="header-bar d-flex align-items-center d-md-none">
+<header class="site-header col-lg-3 col-xl-2">
+	<div class="header-bar d-flex align-items-center d-lg-none">
 		<h4 class="font-weight-bold mb-0">
 			<a href="#" class="text-uppercase text-white">Yash Thakur</a>
 		</h4>
@@ -10,7 +10,7 @@ header -->
 		</button>
 	</div>
 	<div class="scroll">
-		<div class="left-sidebar bg-dark col-md-3 col-xl-2 px-0">
+		<div class="left-sidebar bg-dark col-lg-3 col-xl-2 px-0">
 			<nav>
 				<div class="p-4 text-center">
 					<a href="#" class="logo">

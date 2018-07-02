@@ -90,7 +90,7 @@ $left-sidebar-width: 14.375rem;
     }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     .site-header {
         position: fixed;
         top: 0;
