@@ -52,7 +52,7 @@
     }
 }
 
-#about {
+.about {
     .social-icon {
         @include size(2.5rem);
         border-radius: 50%;
@@ -73,7 +73,7 @@
     }
 }
 
-#service {
+.service {
     .service-icon {
         font-size: 2.5rem;
     }
@@ -95,6 +95,7 @@
         p {
             margin-bottom: 3.875rem;
             font-size: .875rem;
+            max-width: 200px;
         }
         &:hover {
             .contact-btn {
@@ -107,13 +108,13 @@
     }
 }
 
-#resume {
+.resume {
     .resume-icon {
         font-size: 2rem;
     }
 }
 
-#skill {
+.skill {
     .skill-content {
         border-left: 3px solid theme-color("primary");
         font-size: .875rem;
@@ -196,7 +197,7 @@
     }
 }
 
-#portfolio {
+.portfolio {
     .button {
         color: $gray-700;
         font-size: 1.2rem;
@@ -283,6 +284,82 @@
                     color: theme-color("primary");
                 }
             }
+        }
+    }
+}
+
+.blog {
+    .blog-block {
+        line-height: 0;
+    }
+    .blog-bg-img {
+        @include img-inbg;
+        padding-bottom: 85%;
+        line-height: 1.5;
+    }
+    .date-box {
+        @include size(5rem);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem 0 0 1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .blog-info {
+        margin: -1.5625rem .625rem;
+        position: relative;
+        line-height: 1.5;
+    }
+    .blog-content {
+        .title {
+            font-size: 1.5rem;
+            color: $gray-700;
+            @include transition(.3s all linear);
+            &:hover {
+                color: theme-color('primary');
+            }
+        }
+        .desc {
+            font-size: .875rem;
+        }
+        .social-icon {
+            color: $gray-500;
+            @include transition(.3s all linear);
+            @include hover-focus-active {
+                color: theme-color("primary");
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.testimonials {
+    .testimonials-content {
+        position: relative;
+        background-color: darken($gray-100,3%);
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            margin-left: 2.5rem;
+            margin-bottom: -1.25rem;
+            border-style: solid;
+            border-width: 1.25rem 1.25rem 0 0;
+            border-color: darken($gray-100,3%) transparent transparent transparent;
+        }
+        .testimonials-avtar {
+            img {
+                width: 4.0625rem;
+            }
+        }
+        .comment {
+            font-size: .9rem;
         }
     }
 }

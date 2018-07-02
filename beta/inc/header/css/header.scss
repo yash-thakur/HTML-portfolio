@@ -119,6 +119,7 @@ $left-sidebar-width: 14.375rem;
             @include transition(.3s all linear);
             width: $left-sidebar-width;
             top: 3rem;
+            height: calc(100% - 3rem);
         }
         &.open {
             .left-sidebar {

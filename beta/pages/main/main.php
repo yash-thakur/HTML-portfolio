@@ -6,7 +6,7 @@
 	<?php include_once '../../inc/header/header.php';?>
 	<main class="col-12 col-lg-9 col-xl-10 p-0">
 		<!-- banner-section -->
-		<div id="home" class="banner-section">
+		<div id="home" class="home banner-section">
 			<div class="bg-img" style="background-image: url('../../../images/bg.jpg');">
 				<div class="content">
 					<h1 class="banner-title h2 text-uppercase text-white">Hello I 'm
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<!-- about section -->
-		<div id="about" class="py-md-5 px-xl-5 px-md-3 p-3">
+		<div id="about" class="about py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="row mx-0">
 				<div class="col-xl-4 col-lg-6 col-md-4 py-2">
 					<div class="about-img">
@@ -131,7 +131,7 @@
 			</div>
 		</div>
 		<!-- service section -->
-		<div id="service" class="py-md-5 px-xl-5 px-md-3 p-3">
+		<div id="service" class="service py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">What i can do better</div>
 			<h2>Services</h2>
 			<div class="row my-4 mx-0">
@@ -190,20 +190,20 @@
 			</div>
 		</div>
 		<!-- Resume section -->
-		<div id="resume" class="py-md-5 px-xl-5 px-md-3 p-3">
+		<div id="resume" class="resume py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Work Experience</div>
 			<h2>Resume</h2>
 			<div class="py-4">
 				<h3>Experience :</h3>
 				<div class="row py-4 mx-0">
-					<div class="col-md-4 py-1 px-md-3 px-0">
+					<div class="col-md-4 py-1 px-0">
 						<div class="row mx-0">
-							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2 px-0">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-ruler-pencil"></span>
 								</div>
 							</div>
-							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10 pl-0">
 								<h3 class="text-primary">
 								Website Solutions Pvt. Ltd
 								</h3>
@@ -211,20 +211,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1 px-md-3 px-0">
+					<div class="col-md-8 py-1 px-0">
 						<h3>Front-End Development</h3>
 						<p class="text-gray-light">Quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
 				<div class="row py-4 mx-0">
-					<div class="col-md-4 py-1 px-md-3 px-0">
+					<div class="col-md-4 py-1 px-0">
 						<div class="row mx-0">
-							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2 px-0">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-bookmark-alt"></span>
 								</div>
 							</div>
-							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10 pl-0">
 								<h3 class="text-primary">
 								Global Solutions
 								</h3>
@@ -234,20 +234,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1 px-md-3 px-0">
+					<div class="col-md-8 py-1 px-0">
 						<h3>UI/UX Design</h3>
 						<p class="text-gray-light">Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
 				<div class="row py-4 mx-0">
-					<div class="col-md-4 py-1 px-md-3 px-0">
+					<div class="col-md-4 py-1 px-0">
 						<div class="row mx-0">
-							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2 px-0">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-calendar"></span>
 								</div>
 							</div>
-							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10 pl-0">
 								<h3 class="text-primary">
 								Template Agency
 								</h3>
@@ -257,7 +257,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1 px-md-3 px-0">
+					<div class="col-md-8 py-1 px-0">
 						<h3>Website production</h3>
 						<p class="text-gray-light">Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea.</p>
 					</div>
@@ -266,14 +266,14 @@
 			<div class="py-4">
 				<h3>Education:</h3>
 				<div class="row py-4 mx-0">
-					<div class="col-md-4 py-1 px-md-3 px-0">
+					<div class="col-md-4 py-1 px-0">
 						<div class="row mx-0">
-							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2 px-0">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-crown"></span>
 								</div>
 							</div>
-							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10 pl-0">
 								<h3 class="text-primary">
 								University of London
 								</h3>
@@ -283,20 +283,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1 px-md-3 px-0">
+					<div class="col-md-8 py-1 px-0">
 						<h3>Computer science</h3>
 						<p class="text-gray-light">Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
 					</div>
 				</div>
 				<div class="row py-4 mx-0">
-					<div class="col-md-4 py-1 px-md-3 px-0">
+					<div class="col-md-4 py-1 px-0">
 						<div class="row mx-0">
-							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2">
+							<div class="col-xl-2 col-lg-3 col-md-12 col-sm-1 col-2 px-0">
 								<div class="resume-icon">
 									<span class="text-gray-light ti-thumb-up"></span>
 								</div>
 							</div>
-							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
+							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10 pl-0">
 								<h3 class="text-primary">
 								Institue of art & Design
 								</h3>
@@ -306,7 +306,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8 py-1 px-md-3 px-0">
+					<div class="col-md-8 py-1 px-0">
 						<h3>Software engineering</h3>
 						<p class="text-gray-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
@@ -314,7 +314,7 @@
 			</div>
 		</div>
 		<!-- skill section -->
-		<div id="skill" class="py-md-5 px-xl-5 px-md-3 p-3">
+		<div id="skill" class="skill py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
 			<div class="py-4">
 				<h2>My Skill</h2>
@@ -487,7 +487,7 @@
 			</div>
 		</div>
 		<!-- Portfolio section -->
-		<div id="portfolio" class="py-md-5 px-xl-5 px-md-3 p-3">
+		<div id="portfolio" class="portfolio py-md-5 px-xl-5 px-md-3 p-3">
 			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Featured Work</div>
 			<h2>My Portfolio</h2>
 			<div class="py-4">
@@ -699,8 +699,292 @@
 			</div>
 		</div>
 		<!-- blog -->
-		<div id="blog" class="py-md-5 px-xl-5 px-md-3 p-3">
-			
+		<div id="blog" class="blog py-md-5 px-xl-5 px-md-3 p-3">
+			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Latest Blog Posts</div>
+			<h2 class="pb-4">From the blog</h2>
+			<div class="row mx-0 my-4">
+				<div class="col-xl-3 col-lg-6 col-sm-6">
+					<div class="blog-block mb-5">
+						<div class="blog-info p-3 bg-light">
+							<div class="blog-meta">
+								<p class="small d-inline-block align-top text-gray-light pr-1">
+									<span class="ti-comment-alt"></span>
+									<a href="#" class="text-dark font-weight-medium pl-1">4</a>
+								</p>
+								<p class="small d-inline-block align-top text-gray-light">
+									<span class="ti-user"></span>
+									<a href="#" class="text-dark font-weight-medium">Admin </a>
+								</p>
+								<p class="small text-gray-light">
+									<span class="ti-folder"></span>
+									<a href="#" class="text-dark font-weight-medium">Development</a>
+								</p>
+							</div>
+							<div class="blog-content">
+								<a href="#" class="title">Are You Famous Or Focused</a>
+								<p class="desc text-gray-light">Commodo consequat ut enim ad minim niam, quis nostrud ullamco  nisi ut aliquip exea non veritatis illum laudantium</p>
+								<div>
+									<a href="#" class="btn btn-primary btn-sm">Read More...</a>
+									<div class="text-right">
+										<ul class="list-unstyled mb-0">
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-linkedin"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-sm-6">
+					<div class="blog-block mb-5">
+						<div class="blog-bg-img" style="background-image: url('../../../images/blog/02.jpg');">
+							<div class="date-box text-center bg-primary text-white font-weight-medium">
+								<span>AUG</span>
+								<span>15</span>
+							</div>
+						</div>
+						<div class="blog-info p-3 bg-light">
+							<div class="blog-meta">
+								<p class="small d-inline-block align-top text-gray-light pr-1">
+									<span class="ti-comment-alt"></span>
+									<a href="#" class="text-dark font-weight-medium pl-1">4</a>
+								</p>
+								<p class="small d-inline-block align-top text-gray-light">
+									<span class="ti-user"></span>
+									<a href="#" class="text-dark font-weight-medium">Admin </a>
+								</p>
+								<p class="small text-gray-light">
+									<span class="ti-folder"></span>
+									<a href="#" class="text-dark font-weight-medium">Development</a>
+								</p>
+							</div>
+							<div class="blog-content">
+								<a href="#" class="title">Are You Famous Or Focused</a>
+								<p class="desc text-gray-light">Commodo consequat ut enim ad minim niam, quis nostrud ullamco  nisi ut aliquip exea non veritatis illum laudantium</p>
+								<div>
+									<a href="#" class="btn btn-primary btn-sm">Read More...</a>
+									<div class="text-right">
+										<ul class="list-unstyled mb-0">
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-linkedin"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-sm-6">
+					<div class="blog-block mb-5">
+						<div class="blog-bg-img" style="background-image: url('../../../images/blog/02.jpg');">
+							<div class="date-box text-center bg-primary text-white font-weight-medium">
+								<span>AUG</span>
+								<span>15</span>
+							</div>
+						</div>
+						<div class="blog-info p-3 bg-light">
+							<div class="blog-meta">
+								<p class="small d-inline-block align-top text-gray-light pr-1">
+									<span class="ti-comment-alt"></span>
+									<a href="#" class="text-dark font-weight-medium pl-1">4</a>
+								</p>
+								<p class="small d-inline-block align-top text-gray-light">
+									<span class="ti-user"></span>
+									<a href="#" class="text-dark font-weight-medium">Admin </a>
+								</p>
+								<p class="small text-gray-light">
+									<span class="ti-folder"></span>
+									<a href="#" class="text-dark font-weight-medium">Development</a>
+								</p>
+							</div>
+							<div class="blog-content">
+								<a href="#" class="title">Are You Famous Or Focused</a>
+								<p class="desc text-gray-light">Commodo consequat ut enim ad minim niam, quis nostrud ullamco  nisi ut aliquip exea non veritatis illum laudantium</p>
+								<div>
+									<a href="#" class="btn btn-primary btn-sm">Read More...</a>
+									<div class="text-right">
+										<ul class="list-unstyled mb-0">
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-linkedin"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-sm-6">
+					<div class="blog-block mb-5">
+						<div class="blog-bg-img" style="background-image: url('../../../images/blog/02.jpg');">
+							<div class="date-box text-center bg-primary text-white font-weight-medium">
+								<span>AUG</span>
+								<span>15</span>
+							</div>
+						</div>
+						<div class="blog-info p-3 bg-light">
+							<div class="blog-meta">
+								<p class="small d-inline-block align-top text-gray-light pr-1">
+									<span class="ti-comment-alt"></span>
+									<a href="#" class="text-dark font-weight-medium pl-1">4</a>
+								</p>
+								<p class="small d-inline-block align-top text-gray-light">
+									<span class="ti-user"></span>
+									<a href="#" class="text-dark font-weight-medium">Admin </a>
+								</p>
+								<p class="small text-gray-light">
+									<span class="ti-folder"></span>
+									<a href="#" class="text-dark font-weight-medium">Development</a>
+								</p>
+							</div>
+							<div class="blog-content">
+								<a href="#" class="title">Are You Famous Or Focused</a>
+								<p class="desc text-gray-light">Commodo consequat ut enim ad minim niam, quis nostrud ullamco  nisi ut aliquip exea non veritatis illum laudantium</p>
+								<div>
+									<a href="#" class="btn btn-primary btn-sm">Read More...</a>
+									<div class="text-right">
+										<ul class="list-unstyled mb-0">
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li class="d-inline-block align-top">
+												<a href="#" class="social-icon p-1"><i class="fa fa-linkedin"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- testimonials -->
+		<div id="testimonials" class="testimonials py-md-5 px-xl-5 px-md-3 p-3">
+			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">Look at their opinions!</div>
+			<h2 class="pb-4">Testimonials</h2>
+			<div class="row mx-0 my-4">
+				<div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 py-2">
+					<div class="testimonials-block">
+						<div class="testimonials-content rounded p-3">
+							<div class="testimonials-avtar d-table-cell align-middle">
+								<img src="../../../images/testimonials/01.jpg" alt="" class="rounded-circle" />
+							</div>
+							<div class="d-table-cell align-middle pl-3 text-gray-light">
+								<p class="comment mb-0">Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, Epson, Dell, and Lexmark.</p>
+							</div>
+						</div>
+						<div class="mt-sm-5 mt-4">
+							<h4 class="text-primary font-weight-normal">Michael Bean</h4>
+							<span class="small text-dark font-weight-medium">Project manager</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 py-2">
+					<div class="testimonials-block">
+						<div class="testimonials-content rounded p-3">
+							<div class="testimonials-avtar d-table-cell align-middle">
+								<img src="../../../images/testimonials/02.jpg" alt="" class="rounded-circle" />
+							</div>
+							<div class="d-table-cell align-middle pl-3 text-gray-light">
+								<p class="comment mb-0">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive and distractive habit.</p>
+							</div>
+						</div>
+						<div class="mt-sm-5 mt-4">
+							<h4 class="text-primary font-weight-normal">Michael Bean</h4>
+							<span class="small text-dark font-weight-medium">Project manager</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 py-2">
+					<div class="testimonials-block">
+						<div class="testimonials-content rounded p-3">
+							<div class="testimonials-avtar d-table-cell align-middle">
+								<img src="../../../images/testimonials/03.jpg" alt="" class="rounded-circle" />
+							</div>
+							<div class="d-table-cell align-middle pl-3 text-gray-light">
+								<p class="comment mb-0">Few would argue that, despite the advancements of feminism over the past three</p>
+							</div>
+						</div>
+						<div class="mt-sm-5 mt-4">
+							<h4 class="text-primary font-weight-normal">Michael Bean</h4>
+							<span class="small text-dark font-weight-medium">Project manager</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 py-2">
+					<div class="testimonials-block">
+						<div class="testimonials-content rounded p-3">
+							<div class="testimonials-avtar d-table-cell align-middle">
+								<img src="../../../images/testimonials/04.jpg" alt="" class="rounded-circle" />
+							</div>
+							<div class="d-table-cell align-middle pl-3 text-gray-light">
+								<p class="comment mb-0">Sports betting While most people enjoy casino gambling, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive and distractive habit.</p>
+							</div>
+						</div>
+						<div class="mt-sm-5 mt-4">
+							<h4 class="text-primary font-weight-normal">Michael Bean</h4>
+							<span class="small text-dark font-weight-medium">Project manager</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 py-2">
+					<div class="testimonials-block">
+						<div class="testimonials-content rounded p-3">
+							<div class="testimonials-avtar d-table-cell align-middle">
+								<img src="../../../images/testimonials/05.jpg" alt="" class="rounded-circle" />
+							</div>
+							<div class="d-table-cell align-middle pl-3 text-gray-light">
+								<p class="comment mb-0">Despite the advancements few would argue that, of feminism over the past three</p>
+							</div>
+						</div>
+						<div class="mt-sm-5 mt-4">
+							<h4 class="text-primary font-weight-normal">Michael Bean</h4>
+							<span class="small text-dark font-weight-medium">Project manager</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 py-2">
+					<div class="testimonials-block">
+						<div class="testimonials-content rounded p-3">
+							<div class="testimonials-avtar d-table-cell align-middle">
+								<img src="../../../images/testimonials/06.jpg" alt="" class="rounded-circle" />
+							</div>
+							<div class="d-table-cell align-middle pl-3 text-gray-light">
+								<p class="comment mb-0">Today, many people rely on computers to do homework, work, and create or store useful information.</p>
+							</div>
+						</div>
+						<div class="mt-sm-5 mt-4">
+							<h4 class="text-primary font-weight-normal">Michael Bean</h4>
+							<span class="small text-dark font-weight-medium">Project manager</span>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</main>
 	<?php include_once '../../inc/footer/footer.php';?>
