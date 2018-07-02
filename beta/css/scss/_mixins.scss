@@ -86,15 +86,12 @@
      ::-webkit-scrollbar {
         width: 6px;
         background-color: $background-color;
-        display: none;
     }
      ::-webkit-scrollbar-thumb {
         background-color: $foreground-color;
-        display: none;
     }
      ::-webkit-scrollbar-track {
         background-color: $background-color;
-        display: none;
     } // For Internet Explorer
     body {
         scrollbar-face-color: $foreground-color;
@@ -102,4 +99,4 @@
     }
 }
 
-@include scrollbars(6px, $green, $white);
+@include scrollbars(6px, theme-color("primary"), $white);

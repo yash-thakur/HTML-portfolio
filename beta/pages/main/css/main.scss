@@ -56,11 +56,11 @@
     .social-icon {
         @include size(2.5rem);
         border-radius: 50%;
-        background-color: darken($green, 5%);
+        background-color: darken(theme-color("primary"), 5%);
         @include transition(.2s linear all);
         color: $white;
         @include hover-focus-active {
-            background-color: darken($green, 1%);
+            background-color: darken(theme-color("primary"), 1%);
         }
     }
     .icons {
@@ -115,7 +115,7 @@
 
 #skill {
     .skill-content {
-        border-left: 3px solid $green;
+        border-left: 3px solid theme-color("primary");
         font-size: .875rem;
     }
     .progress-bar {
@@ -187,7 +187,7 @@
                 stroke: $gray-200;
             }
             .progress-value {
-                stroke: $green;
+                stroke: theme-color("primary");
                 stroke-linecap: round;
                 @include transition(.3s all linear);
                 @include animation(lefttoright 3s linear forwards);
@@ -202,7 +202,7 @@
         font-size: 1.2rem;
         font-weight: 600;
         &.is-checked {
-            color: $green;
+            color: theme-color("primary");
         }
         @include hover-focus-active {
             text-decoration: none;
@@ -224,7 +224,7 @@
             left: 0;
             padding: 20px;
             background-color: $gray-700;
-            color: $green;
+            color: theme-color("primary");
             height: 100%;
             width: 50%;
             opacity: 0;
@@ -240,7 +240,7 @@
                 font-size: 1rem;
             }
             span {
-                color: $green;
+                color: theme-color("primary");
                 font-size: .875rem;
                 text-transform: capitalize;
             }
@@ -273,14 +273,14 @@
             }
         }
         .small-icon {
-            background-color: $green;
+            background-color: theme-color("primary");
             span {
                 color: $white;
             }
             @include hover-focus-active {
                 background-color: $white;
                 span {
-                    color: $green;
+                    color: theme-color("primary");
                 }
             }
         }

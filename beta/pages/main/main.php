@@ -15,7 +15,7 @@
 					</span>
 					</h1>
 					<div class="typing-text h2 text-uppercase text-white">Frontend developer</div>
-					<button class="btn btn-success text-uppercase px-4 mt-3">Download my cv</button>
+					<button class="btn btn-primary text-uppercase px-4 mt-3">Download my cv</button>
 				</div>
 				<a href="#about" class="scroll-down">
 					<span></span>
@@ -29,7 +29,7 @@
 					<div class="about-img">
 						<img src="../../../images/me.jpg" alt="User" class="w-100 mw-100" />
 					</div>
-					<div class="about-social bg-success text-center p-3 text-center">
+					<div class="about-social bg-primary text-center p-3 text-center">
 						<a href="#" class="social-icon d-inline-flex align-items-center justify-content-center m-1">
 							<i class="fa fa-facebook"></i>
 						</a>
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				<div class="col-lg-8 py-2">
-					<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">Know about me</div>
+					<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">Know about me</div>
 					<h2>About Me</h2>
 					<div class="row mx-0 my-4">
 						<div class="col-lg-4 col-md-6 px-md-0 py-3">
@@ -132,7 +132,7 @@
 		</div>
 		<!-- service section -->
 		<div id="service" class="py-5 px-md-5 px-3">
-			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">What i can do better</div>
+			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">What i can do better</div>
 			<h2>Services</h2>
 			<div class="row my-4">
 				<div class="col-lg-3 col-md-6 py-2">
@@ -141,7 +141,7 @@
 						<h4 class="my-4">Tranding Design</h4>
 						<p class="text-gray-light">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures) as you notice that the idea of this exercise is to hypnotize yourself to be aware of two....</p>
 						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
+							<a href="#" class="clearfix btn btn-primary btn-block rounded-0 py-0">
 								<span class="float-left">Read More...</span>
 								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
@@ -154,7 +154,7 @@
 						<h4 class="my-4">Clear Code</h4>
 						<p class="text-gray-light">Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated to change about yourself. Prior to running through this technique, just have a about...</p>
 						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
+							<a href="#" class="clearfix btn btn-primary btn-block rounded-0 py-0">
 								<span class="float-left">Read More...</span>
 								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
@@ -167,7 +167,7 @@
 						<h4 class="my-4">App Design</h4>
 						<p class="text-gray-light">Then with that thing in mind, follow these simple steps. Step One: Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the moment and spend some time being still, quiet and drift inside of your mind... </p>
 						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
+							<a href="#" class="clearfix btn btn-primary btn-block rounded-0 py-0">
 								<span class="float-left">Read More...</span>
 								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
@@ -180,7 +180,7 @@
 						<h4 class="my-4">UI/UX Design</h4>
 						<p class="text-gray-light">Become aware of the temperature, the sights, the sounds and enjoy walking along the path of your life. Make it sensory rich and get comfortable with the idea. Imagine the feeling of your feet walking along the path and the sound....</p>
 						<div class="contact-btn">
-							<a href="#" class="clearfix btn btn-success btn-block rounded-0 py-0">
+							<a href="#" class="clearfix btn btn-primary btn-block rounded-0 py-0">
 								<span class="float-left">Read More...</span>
 								<span class="ti-arrow-circle-right float-right"></span>
 							</a>
@@ -191,7 +191,7 @@
 		</div>
 		<!-- Resume section -->
 		<div id="resume" class="py-5 px-md-5 px-3">
-			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">My Work Experience</div>
+			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Work Experience</div>
 			<h2>Resume</h2>
 			<div class="py-4">
 				<h3>Experience :</h3>
@@ -204,7 +204,7 @@
 								</div>
 							</div>
 							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
-								<h3 class="text-success">
+								<h3 class="text-primary">
 								Website Solutions Pvt. Ltd
 								</h3>
 								<span class="h5 text-gray-light font-weight-medium">2013 to present</span>
@@ -225,7 +225,7 @@
 								</div>
 							</div>
 							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
-								<h3 class="text-success">
+								<h3 class="text-primary">
 								Global Solutions
 								</h3>
 								<span class="h5 text-gray-light font-weight-medium">
@@ -248,7 +248,7 @@
 								</div>
 							</div>
 							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
-								<h3 class="text-success">
+								<h3 class="text-primary">
 								Template Agency
 								</h3>
 								<span class="h5 text-gray-light font-weight-medium">
@@ -274,7 +274,7 @@
 								</div>
 							</div>
 							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
-								<h3 class="text-success">
+								<h3 class="text-primary">
 								University of London
 								</h3>
 								<span class="h5 text-gray-light font-weight-medium">
@@ -297,7 +297,7 @@
 								</div>
 							</div>
 							<div class="resume-name col-xl-10 col-lg-9 col-md-12 col-sm-11 col-10">
-								<h3 class="text-success">
+								<h3 class="text-primary">
 								Institue of art & Design
 								</h3>
 								<span class="h5 text-gray-light font-weight-medium">
@@ -315,7 +315,7 @@
 		</div>
 		<!-- skill section -->
 		<div id="skill" class="py-5 px-md-5 px-3">
-			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
+			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">I am good at</div>
 			<div class="py-4">
 				<h2>My Skill</h2>
 				<div class="row my-4">
@@ -336,7 +336,7 @@
 									Web & Graphic Design
 								</p>
 								<div class="progress-bar d-inline-block w-100 mb-0">
-									<p class="bar bg-success float-left py-2 mb-0" style="width: 70%;">
+									<p class="bar bg-primary float-left py-2 mb-0" style="width: 70%;">
 										<span class="font-weight-medium text-gray-light">70%</span>
 									</p>
 								</div>
@@ -346,7 +346,7 @@
 									HTML5 & CSS3
 								</p>
 								<div class="progress-bar d-inline-block w-100 mb-0">
-									<p class="bar bg-success float-left py-2 mb-0" style="width: 55%;">
+									<p class="bar bg-primary float-left py-2 mb-0" style="width: 55%;">
 										<span class="font-weight-medium text-gray-light">55%</span>
 									</p>
 								</div>
@@ -356,7 +356,7 @@
 									JavaScript / JQuery
 								</p>
 								<div class="progress-bar d-inline-block w-100 mb-0">
-									<p class="bar bg-success float-left py-2 mb-0" style="width: 80%;">
+									<p class="bar bg-primary float-left py-2 mb-0" style="width: 80%;">
 										<span class="font-weight-medium text-gray-light">80%</span>
 									</p>
 								</div>
@@ -366,7 +366,7 @@
 									PHP
 								</p>
 								<div class="progress-bar d-inline-block w-100 mb-0">
-									<p class="bar bg-success float-left py-2 mb-0" style="width: 65%;">
+									<p class="bar bg-primary float-left py-2 mb-0" style="width: 65%;">
 										<span class="font-weight-medium text-gray-light">65%</span>
 									</p>
 								</div>
@@ -436,51 +436,51 @@
 				<p class="text-gray-light">Auis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 				<div class="row">
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Web design and development</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Strong creative skills</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Cultivate a design sense</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Multimedia design</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>The ability to pay attention to detail</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Right balance of tools</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Digital media development</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Ability to work to deadlines</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Approach every new skill</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Interactive computing</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Comfortable with a CMS</span>
 					</div>
 					<div class="col-lg-4 col-sm-6 py-1">
-						<span class="ti-hand-point-right pr-2 text-success"></span>
+						<span class="ti-hand-point-right pr-2 text-primary"></span>
 						<span>Good business management</span>
 					</div>
 				</div>
@@ -488,7 +488,7 @@
 		</div>
 		<!-- Portfolio section -->
 		<div id="portfolio" class="py-5 px-md-5 px-3">
-			<div class="bg-success py-2 px-4 d-inline-block text-white mb-3">My Featured Work</div>
+			<div class="bg-primary py-2 px-4 d-inline-block text-white mb-3">My Featured Work</div>
 			<h2>My Portfolio</h2>
 			<div class="py-4">
 				<div>
@@ -519,7 +519,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -542,7 +542,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -565,7 +565,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -588,7 +588,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -611,7 +611,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -634,7 +634,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -657,7 +657,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>
@@ -680,7 +680,7 @@
 										</div>
 										<div class="item-info">
 											<a href="#" class="text-white text-capitalize">Work item one</a>
-											<span class="text-success d-block">by Sam Martin</span>
+											<span class="text-primary d-block">by Sam Martin</span>
 											<div class="item-link">
 												<a class="small-icon btn" href="images/portfolio/01.jpg">
 													<span class="ti-plus"></span>

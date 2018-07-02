@@ -1,29 +1,32 @@
 ::-webkit-scrollbar {
   width: 6px;
-  background-color: #fff;
-  display: none; }
+  background-color: #fff; }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #07cb79;
-  display: none; }
+  background-color: #26ade4; }
 
 ::-webkit-scrollbar-track {
-  background-color: #fff;
-  display: none; }
+  background-color: #fff; }
 
 body {
-  scrollbar-face-color: #07cb79;
+  scrollbar-face-color: #26ade4;
   scrollbar-track-color: #fff; }
 
+.site-header .logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 8rem;
+  height: 8rem;
+  background-color: #26ade4;
+  color: #fff; }
 .site-header .left-sidebar {
   position: fixed;
   top: 0;
   height: 100%;
   left: 0;
   bottom: 0;
-  overflow-y: auto; }
-.site-header .menu-links {
-  height: 16.5rem;
   overflow-y: auto; }
 .site-header .site-links,
 .site-header .social-icon {
@@ -33,16 +36,16 @@ body {
   .site-header .social-icon:hover,
   .site-header .social-icon:focus,
   .site-header .social-icon:active {
-    color: #07cb79;
+    color: #26ade4;
     text-decoration: none; }
 .site-header .site-links {
   font-size: .875rem; }
   .site-header .site-links:hover, .site-header .site-links:focus, .site-header .site-links:active {
-    box-shadow: 15px 0px 0px -1px #07cb79 inset;
-    border-right: 5px solid #07cb79; }
+    box-shadow: 15px 0px 0px -1px #26ade4 inset;
+    border-right: 5px solid #26ade4; }
   .site-header .site-links.active {
-    box-shadow: 15px 0px 0px -1px #07cb79 inset;
-    border-right: 5px solid #07cb79; }
+    box-shadow: 15px 0px 0px -1px #26ade4 inset;
+    border-right: 5px solid #26ade4; }
 .site-header .copy-right {
   font-size: .75rem; }
 .site-header .menu-links li {
@@ -75,11 +78,6 @@ body {
     color: #495057; }
 .site-header .sub-menu.open .dropdown-menu {
   display: block; }
-
-.scroll ::-webkit-scrollbar {
-  background-color: #343a40; }
-.scroll ::-webkit-scrollbar-track {
-  background-color: #343a40; }
 
 @media (max-width: 767.98px) {
   .site-header {
@@ -115,5 +113,11 @@ body {
       -ms-transform: rotate(90deg);
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg); } }
+.scroll ::-webkit-scrollbar {
+  background-color: #343a40;
+  display: none; }
+.scroll ::-webkit-scrollbar-track {
+  background-color: #343a40;
+  display: none; }
 
 /*# sourceMappingURL=header.css.map */
