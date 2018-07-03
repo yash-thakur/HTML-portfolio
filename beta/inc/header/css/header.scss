@@ -20,6 +20,7 @@ $left-sidebar-width: 14.375rem;
         left: 0;
         bottom: 0;
         overflow-y: auto;
+        z-index: 9;
     }
     .site-links,
     .social-icon {

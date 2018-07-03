@@ -18,7 +18,7 @@ header -->
 					</a>
 				</div>
 				<div class="menu-links">
-					<ul class="list-unstyled">
+					<ul class="list-unstyled mb-0">
 						<li>
 							<a href="#home" class="active site-links page-scroll text-uppercase px-4 py-2 d-block">Home</a>
 						</li>

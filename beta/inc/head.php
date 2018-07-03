@@ -7,7 +7,8 @@
 		<meta name="description" content="Eventerprise">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="../../../images/favicon.ico" />
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type="text/css" />
+		<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,700italic,800,800italic' />
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,300,600,300italic,400italic,600italic,700,700italic,800,800italic" />
 		<link href="../../libs/font-awesome.min.css" rel="stylesheet" type="text/css" />
 		<link href="../../libs/themify-icons.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="../../css/style.css">

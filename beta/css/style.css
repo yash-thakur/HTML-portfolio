@@ -1773,6 +1773,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       margin-bottom: 0; } }
 
 .btn {
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
   display: inline-block;
   font-weight: 400;
   text-align: center;
