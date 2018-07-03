@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #26ade4; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff; }
+
+body {
+  scrollbar-face-color: #26ade4;
+  scrollbar-track-color: #fff; }
+
+.error-bg {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  height: 100vh;
+  line-height: 0; }
+  .error-bg.gradient:before {
+    background: rgba(0, 0, 0, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #131b51), color-stop(100%, #e8d4e6));
+    background: -webkit-linear-gradient(-315deg, #131b51 0%, #e8d4e6 100%);
+    background: -webkit-linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+    background: linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+    opacity: .6;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0; }
+  .error-bg .error {
+    position: relative;
+    line-height: 1.5; }
+  .error-bg h2 {
+    font-size: 3.5rem; }
+  .error-bg h1 {
+    font-size: 4rem; }
+
+/*# sourceMappingURL=error.css.map */
