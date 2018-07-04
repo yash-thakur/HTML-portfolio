@@ -49,10 +49,12 @@ header -->
 						<li class="sub-menu">
 							<a href="#" class="site-links text-uppercase px-4 py-2 d-block">pages</a>
 							<ul class="dropdown-menu list-unstyled">
-								<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="blog.html">Blog </a></li>
+								<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="blog.php">Blog </a></li>
 								<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="blog-single.html">Blog single</a></li>
 								<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="portfolio-single.html">Portfolio single</a></li>
-								<li><a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="error-404.html">Error 404</a></li>
+								<li>
+									<a class="site-links page-scroll text-uppercase px-4 py-2 d-block" href="../../pages/404/404.php">Error 404</a>
+								</li>
 							</ul>
 						</li>
 						<li>

@@ -1,0 +1,91 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+$breadcrumb-divider-color: $white;
+.blog-bg {
+    @include img-inbg;
+    line-height: 0;
+    height: 400px;
+    &.gradient {
+        &:before {
+            background: rgba(0, 0, 0, 0.8);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #131b51), color-stop(100%, #e8d4e6));
+            background: -webkit-linear-gradient(-315deg, #131b51 0%, #e8d4e6 100%);
+            background: -webkit-linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+            background: linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+            opacity: .6;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
+    }
+    .blog-content {
+    	position: relative;
+    	.custom-breadcrumb,
+    	.btn-home {
+    		background-color: rgba($white,.2);
+    		border-color: rgba($white,.2);
+    	}
+    	.custom-breadcrumb {
+    		li{
+    			&:before {
+    				color: $breadcrumb-divider-color;
+    			}
+    		}
+    	}
+    	.top-bar {
+    		border-bottom: 1px solid rgba($white,.2); 
+    	}
+    }
+}
+.blog {
+    .blog-block {
+        line-height: 0;
+    }
+    .blog-bg-img {
+        @include img-inbg;
+        padding-bottom: 85%;
+        line-height: 1.5;
+    }
+    .date-box {
+        @include size(5rem);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem 0 0 1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .blog-info {
+        margin: -1.5625rem .625rem;
+        position: relative;
+        line-height: 1.5;
+    }
+    .blog-content {
+        .title {
+            font-size: 1.5rem;
+            color: $gray-700;
+            @include transition(.3s all linear);
+            &:hover {
+                color: theme-color('primary');
+            }
+        }
+        .desc {
+            font-size: .875rem;
+        }
+        .social-icon {
+            color: $gray-500;
+            @include transition(.3s all linear);
+            @include hover-focus-active {
+                color: theme-color("primary");
+                text-decoration: none;
+            }
+        }
+    }
+}

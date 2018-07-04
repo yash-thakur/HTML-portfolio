@@ -5,9 +5,9 @@
           $(".site-header").toggleClass("open");
         })
 
-		$(".sub-menu").on("click", function() {
+		$(".sub-menu").on("click", function(e) {
 		$(this).closest(".sub-menu").toggleClass("open");
-		return false;
+		//return false;
 		});
 
 		//smooth-scroll

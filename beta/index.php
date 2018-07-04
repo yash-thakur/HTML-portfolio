@@ -16,6 +16,7 @@
         <ul>
           <li><a href="pages/main/main.php" target="_blank">Main Page</a></li>
           <li><a href="pages/404/404.php" target="_blank">404 Page</a></li>
+          <li><a href="pages/blog/blog.php" target="_blank">blog Page</a></li>
         </ul>
       </div>
     </div>
