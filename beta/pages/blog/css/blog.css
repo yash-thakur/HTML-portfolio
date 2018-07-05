@@ -12,6 +12,7 @@ body {
   scrollbar-face-color: #26ade4;
   scrollbar-track-color: #fff; }
 
+.slider-img,
 .blog-bg {
   height: 100%;
   overflow: hidden;
@@ -20,7 +21,9 @@ body {
   background-position: center;
   width: 100%;
   position: relative;
-  display: inline-block;
+  display: inline-block; }
+
+.blog-bg {
   line-height: 0;
   height: 400px; }
   .blog-bg.gradient:before {
@@ -90,5 +93,20 @@ body {
   .blog .blog-content .social-icon:hover, .blog .blog-content .social-icon:focus, .blog .blog-content .social-icon:active {
     color: #26ade4;
     text-decoration: none; }
+
+.blog-desc .slider-img {
+  padding-bottom: 30%;
+  min-height: 200px;
+  height: auto; }
+.blog-desc .blockquote-style {
+  border-width: 5px !important; }
+.blog-desc p {
+  font-size: .875rem; }
+
+.blog-comments .comments-photo {
+  width: 7.625rem;
+  padding-right: 2rem; }
+  .blog-comments .comments-photo img {
+    border: 3px solid #e9ecef; }
 
 /*# sourceMappingURL=blog.css.map */
