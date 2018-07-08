@@ -28,6 +28,7 @@ $breadcrumb-divider-color: $white;
         }
     }
     .blog-content {
+        line-height: 1.5;
         position: relative;
         .custom-breadcrumb,
         .btn-home {
@@ -43,6 +44,15 @@ $breadcrumb-divider-color: $white;
         }
         .top-bar {
             border-bottom: 1px solid rgba($white, .2);
+        }
+    }
+    .blog-meta {
+        a {
+            color: $white;
+            @include transition(.3s all linear);
+            @include hover-focus-active {
+                color: theme-color("primary");
+            }
         }
     }
 }
@@ -98,7 +108,7 @@ $breadcrumb-divider-color: $white;
 .blog-desc {
     .slider-img {
         padding-bottom: 30%;
-        min-height: 200px; 
+        min-height: 200px;
         height: auto;
     }
     .blockquote-style {
@@ -108,18 +118,80 @@ $breadcrumb-divider-color: $white;
         font-size: .875rem;
     }
 }
+
 .blog-comments {
     .comments-photo {
         width: 7.625rem;
-        padding-right: 2rem; 
+        padding-right: 2rem;
         img {
             border: 3px solid $gray-200;
         }
     }
 }
-@include media-breakpoint-down(sm) {
- .blog-comments {
-   
- }   
 
+.reply-form {
+    input,
+    textarea {
+        font-size: .875rem;
+    }
+    textarea {
+        resize: none;
+    }
+}
+
+.sidebar {
+    .author-avtar {
+        width: 10rem;
+    }
+    p {
+        font-size: .875rem;
+    }
+    .social-icon {
+        color: $gray-500;
+        @include transition(.3s all linear);
+        @include hover-focus-active {
+            color: theme-color("primary");
+        }
+    }
+    .cat-link {
+        a {
+            border-bottom: 1px solid $gray-300;
+            color: $gray-500;
+            @include transition(.3s all linear);
+            font-size: .875rem;
+        }
+        @include hover-focus-active {
+            a {
+                border-color: theme-color("primary");
+                color: theme-color("primary");
+            }
+        }
+    }
+    .post {
+        border-bottom: 1px solid $gray-300;
+        a,
+        p {
+            font-size: .875rem;
+            color: $gray-500;
+        }
+        a {
+            @include transition(.3s all linear);
+            @include hover-focus-active {
+                color: theme-color("primary");
+            }
+        }
+    }
+    .btn-tag {
+        border-color: $gray-200;
+        color: $gray-500;
+        @include hover-focus-active {
+            color: $white;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .blog-bg {
+        margin-top: 3rem;
+    }
 }

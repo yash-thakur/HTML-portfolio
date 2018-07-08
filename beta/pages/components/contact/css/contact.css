@@ -1,0 +1,46 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #26ade4; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff; }
+
+body {
+  scrollbar-face-color: #26ade4;
+  scrollbar-track-color: #fff; }
+
+.contact .contact-info {
+  position: relative; }
+  .contact .contact-info .contact-details {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(52, 58, 64, 0.8);
+    width: 20rem;
+    height: 100%;
+    z-index: 3; }
+.contact #map-canvas {
+  width: 100%;
+  height: 730px; }
+.contact .address .icon {
+  font-size: 1.25rem; }
+.contact .address .email,
+.contact .address .ph-no {
+  color: #fff;
+  transition: 0.3s all linear; }
+  .contact .address .email:hover,
+  .contact .address .ph-no:hover {
+    color: #26ade4; }
+.contact .info-text {
+  font-size: .875rem; }
+.contact .social .social-icon {
+  transition: 0.2s linear all;
+  color: #fff; }
+  .contact .social .social-icon:hover, .contact .social .social-icon:focus, .contact .social .social-icon:active {
+    color: #26ade4; }
+
+/*# sourceMappingURL=contact.css.map */

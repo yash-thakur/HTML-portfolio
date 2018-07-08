@@ -41,6 +41,7 @@ body {
     width: 100%;
     z-index: 0; }
   .blog-bg .blog-content {
+    line-height: 1.5;
     position: relative; }
     .blog-bg .blog-content .custom-breadcrumb,
     .blog-bg .blog-content .btn-home {
@@ -50,6 +51,11 @@ body {
       color: #fff; }
     .blog-bg .blog-content .top-bar {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  .blog-bg .blog-meta a {
+    color: #fff;
+    transition: 0.3s all linear; }
+    .blog-bg .blog-meta a:hover, .blog-bg .blog-meta a:focus, .blog-bg .blog-meta a:active {
+      color: #26ade4; }
 
 .blog .blog-block {
   line-height: 0; }
@@ -108,5 +114,48 @@ body {
   padding-right: 2rem; }
   .blog-comments .comments-photo img {
     border: 3px solid #e9ecef; }
+
+.reply-form input,
+.reply-form textarea {
+  font-size: .875rem; }
+.reply-form textarea {
+  resize: none; }
+
+.sidebar .author-avtar {
+  width: 10rem; }
+.sidebar p {
+  font-size: .875rem; }
+.sidebar .social-icon {
+  color: #adb5bd;
+  transition: 0.3s all linear; }
+  .sidebar .social-icon:hover, .sidebar .social-icon:focus, .sidebar .social-icon:active {
+    color: #26ade4; }
+.sidebar .cat-link a {
+  border-bottom: 1px solid #dee2e6;
+  color: #adb5bd;
+  transition: 0.3s all linear;
+  font-size: .875rem; }
+.sidebar .cat-link:hover a, .sidebar .cat-link:focus a, .sidebar .cat-link:active a {
+  border-color: #26ade4;
+  color: #26ade4; }
+.sidebar .post {
+  border-bottom: 1px solid #dee2e6; }
+  .sidebar .post a,
+  .sidebar .post p {
+    font-size: .875rem;
+    color: #adb5bd; }
+  .sidebar .post a {
+    transition: 0.3s all linear; }
+    .sidebar .post a:hover, .sidebar .post a:focus, .sidebar .post a:active {
+      color: #26ade4; }
+.sidebar .btn-tag {
+  border-color: #e9ecef;
+  color: #adb5bd; }
+  .sidebar .btn-tag:hover, .sidebar .btn-tag:focus, .sidebar .btn-tag:active {
+    color: #fff; }
+
+@media (max-width: 991.98px) {
+  .blog-bg {
+    margin-top: 3rem; } }
 
 /*# sourceMappingURL=blog.css.map */

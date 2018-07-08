@@ -364,49 +364,6 @@
     }
 }
 
-.contact {
-    .contact-info {
-        position: relative;
-        .contact-details {
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            bottom: 0px;
-            background-color: rgba($gray-800,.8);
-            width: 20rem;
-            height: 100%;
-            z-index: 3;
-        }
-    }
-    #map-canvas {
-        width: 100%;
-        height: 730px;
-    }
-    .address {
-        .icon {
-            font-size: 1.25rem;
-        }
-        .email,.ph-no {
-            color: $white;
-            @include transition(.3s all linear);
-            &:hover {
-                color: theme-color('primary');
-            }
-        }
-    }
-    .info-text {
-        font-size: .875rem;
-    }
-    .social {
-        .social-icon {
-            @include transition(.2s linear all);
-            color: $white;
-            @include hover-focus-active {
-                color: theme-color("primary");
-            }
-        }
-    }
-}
 
 @include keyframes(fadebounce) {
     0% {
