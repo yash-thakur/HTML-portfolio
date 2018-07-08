@@ -30,7 +30,7 @@
 		      });
 		    } // End if
 	  	});
-	  	$('.loader').delay(8000).fadeOut('slow');
+	  	$('.loader').delay(6000).fadeOut('slow');
 
 	});
 </script>

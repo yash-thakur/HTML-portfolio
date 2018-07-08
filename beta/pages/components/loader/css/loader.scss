@@ -16,7 +16,6 @@ $bounce_height: 30px;
     bottom: 0;
     font-family: $headings-font-family;
     z-index: 99;
-    background-color: $white;
 }
 
 .wrap {
@@ -24,10 +23,10 @@ $bounce_height: 30px;
     top: 50%;
     left: 50%;
     @include transform(translate(-50%, -50%));
-    //@include animation(fade 10s forwards);
     opacity: 1;
+    z-index: 100;
     .text {
-        color: theme-color("primary");
+        color: $white;
         display: inline-block;
         margin-left: 5px;
     }
@@ -46,9 +45,9 @@ $bounce_height: 30px;
         width: $width;
         height: $height;
         border-radius: 50%;
-        background-color: theme-color("primary");
+        background-color: $white;
         transform-origin: 50%;
-        @include animation(bounce 500ms alternate infinite ease);
+        @include animation(bounce .5s alternate infinite ease);
     }
 }
 
@@ -58,17 +57,16 @@ $bounce_height: 30px;
     width: 51%;
     height: 100%;
     background-color: theme-color("primary");
-    z-index: 1000;
+    z-index: 99;
     @include transform(translateX(0));
-    opacity: 0;
     &.left-section {
         left: 0;
-        @include animation(slide-left 5s forwards);
+        @include animation(slide-left 3s forwards);
         animation-delay: 6s;
     }
     &.right-section {
         right: 0;
-        @include animation(slide-right 5s forwards);
+        @include animation(slide-right 3s forwards);
         animation-delay: 6s;
     }
 }
@@ -92,28 +90,16 @@ $bounce_height: 30px;
 @include keyframes(slide-left) {
     0% {
         @include transform(translateX(0));
-        opacity: 0;
     }
     100% {
         @include transform(translateX(-100%));
-        opacity: 1;
     }
 }
 @include keyframes(slide-right) {
     0% {
         @include transform(translateX(0));
-        opacity: 0;
     }
     100% {
         @include transform(translateX(100%));
-        opacity: 1;
-    }
-}
-@include keyframes(fade) {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
     }
 }
