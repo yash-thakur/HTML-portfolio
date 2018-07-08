@@ -1,8 +1,11 @@
 <?php include_once '../../inc/head.php';?>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="../components/contact/css/contact.css">
+<link rel="stylesheet" type="text/css" href="../components/loader/css/loader.css">
 </head>
 <body>
+	<!-- loader -->
+	<?php include'../components/loader/loader.php';?>
 	<div class="row flex-xl-nowrap mx-0">
 		<?php include_once '../../inc/header/header.php';?>
 		<main class="col-12 col-lg-9 col-xl-10 p-0">
