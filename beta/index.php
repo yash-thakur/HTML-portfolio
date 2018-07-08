@@ -18,6 +18,7 @@
           <li><a href="pages/404/404.php" target="_blank">404 Page</a></li>
           <li><a href="pages/blog/blog.php" target="_blank">blog Page</a></li>
           <li><a href="pages/blog/blog-single.php" target="_blank">blog single Page</a></li>
+          <li><a href="pages/portfolio-single/portfolio-single.php" target="_blank">portfolio single Page</a></li>
         </ul>
       </div>
     </div>

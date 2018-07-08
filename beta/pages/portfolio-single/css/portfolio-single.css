@@ -1,0 +1,89 @@
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #26ade4; }
+
+::-webkit-scrollbar-track {
+  background-color: #fff; }
+
+body {
+  scrollbar-face-color: #26ade4;
+  scrollbar-track-color: #fff; }
+
+.slider-img,
+.bg-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block; }
+
+.bg-img {
+  line-height: 0;
+  height: 400px; }
+  .bg-img.gradient:before {
+    background: rgba(0, 0, 0, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #131b51), color-stop(100%, #e8d4e6));
+    background: -webkit-linear-gradient(-315deg, #131b51 0%, #e8d4e6 100%);
+    background: -webkit-linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+    background: linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+    opacity: .6;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0; }
+  .bg-img .blog-content {
+    line-height: 1.5;
+    position: relative; }
+    .bg-img .blog-content .custom-breadcrumb,
+    .bg-img .blog-content .btn-home {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.2); }
+    .bg-img .blog-content .custom-breadcrumb li:before {
+      color: #fff; }
+    .bg-img .blog-content .top-bar {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.portfolio-desc .slider-img {
+  padding-bottom: 100%;
+  height: auto; }
+.portfolio-desc .btn-tag {
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+  color: #212529;
+  transition: 0.3s all linear; }
+  .portfolio-desc .btn-tag:hover, .portfolio-desc .btn-tag:focus, .portfolio-desc .btn-tag:active {
+    background-color: #26ade4;
+    border-color: #26ade4;
+    color: #fff; }
+.portfolio-desc .min-w {
+  min-width: 6.25rem; }
+.portfolio-desc p,
+.portfolio-desc .post-desc {
+  font-size: .875rem; }
+.portfolio-desc .post-photo {
+  width: 10.625rem; }
+.portfolio-desc .social-icon {
+  color: #495057;
+  transition: 0.3s all linear; }
+  .portfolio-desc .social-icon:hover, .portfolio-desc .social-icon:focus, .portfolio-desc .social-icon:active {
+    color: #26ade4;
+    text-decoration: none; }
+.portfolio-desc .post-title {
+  color: #495057; }
+  .portfolio-desc .post-title span {
+    color: #6c757d; }
+
+@media (max-width: 991.98px) {
+  .bg-img {
+    margin-top: 3rem; } }
+
+/*# sourceMappingURL=portfolio-single.css.map */

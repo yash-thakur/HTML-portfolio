@@ -96,8 +96,9 @@ body {
       right: 0;
       color: #fff;
       top: 50%;
-      margin-top: -1rem;
+      margin-top: -1.15rem;
       margin-right: 1rem;
+      line-height: .7;
       transition: 0.3s all linear; }
       .site-header .toggle-btn:focus {
         outline: 0; }

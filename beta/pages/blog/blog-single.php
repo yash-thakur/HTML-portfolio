@@ -8,7 +8,7 @@
 	<?php include_once '../../inc/header/header.php';?>
 	<main class="col-12 col-lg-9 col-xl-10 p-0">
 		<!-- blog-banner-section -->
-		<div class="blog-bg  gradient" style="background-image: url('../../../images/bg/01.jpg')">
+		<div class="bg-img gradient" style="background-image: url('../../../images/bg/01.jpg')">
 			<div class="blog-content container">
 				<div class="top-bar d-flex justify-content-sm-between flex-sm-nowrap flex-wrap mx-4 py-5">
 					<a class="btn-home btn btn-secondary px-4 text-white d-flex align-items-center mb-2 mr-3">
@@ -51,7 +51,7 @@
 		</div>
 		<div class="blog-desc py-5 mx-4">
 			<div class="row mx-0">
-				<div class="col-xl-9 col-lg-8">
+				<div class="col-xl-9 col-md-8">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<div class="slider-img swiper-slide" style="background-image: url('../../../images/blog/09.jpg');"></div>
@@ -174,13 +174,13 @@
 						</form>
 					</div>
 				</div>
-				<div class="sidebar col-xl-3 col-lg-4">
+				<div class="sidebar col-xl-3 col-md-4">
 					<div class="bg-light p-3 mb-3">
 						<div class="d-sm-table text-sm-left text-center">
-							<div class="author-avtar d-sm-table-cell align-top pr-3 py-2 mx-auto">
+							<div class="author-avtar d-sm-table-cell align-middle pr-3 py-2 mx-auto">
 								<img src="../../../images/my-photo.jpg" alt="" class="rounded-circle mw-100">
 							</div>
-							<div class="d-sm-table-cell align-top py-2">
+							<div class="d-sm-table-cell align-middle py-2">
 								<h5 class="font-weight-normal">Yash Thakur</h5>
 								<h6 class="text-primary text-uppercase font-weight-bold">
 								Front end developer

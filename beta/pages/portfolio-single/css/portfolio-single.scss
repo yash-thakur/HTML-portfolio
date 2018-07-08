@@ -1,0 +1,97 @@
+@import "../../../css/scss/functions";
+@import "../../../css/scss/variables";
+@import "../../../css/scss/mixins";
+$breadcrumb-divider-color: $white;
+.slider-img,
+.bg-img {
+    @include img-inbg;
+}
+
+.bg-img {
+    line-height: 0;
+    height: 400px;
+    &.gradient {
+        &:before {
+            background: rgba(0, 0, 0, 0.8);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #131b51), color-stop(100%, #e8d4e6));
+            background: -webkit-linear-gradient(-315deg, #131b51 0%, #e8d4e6 100%);
+            background: -webkit-linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+            background: linear-gradient(45deg, #131b51 0%, #e8d4e6 100%);
+            opacity: .6;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
+    }
+    .blog-content {
+        line-height: 1.5;
+        position: relative;
+        .custom-breadcrumb,
+        .btn-home {
+            background-color: rgba($white, .2);
+            border-color: rgba($white, .2);
+        }
+        .custom-breadcrumb {
+            li {
+                &:before {
+                    color: $breadcrumb-divider-color;
+                }
+            }
+        }
+        .top-bar {
+            border-bottom: 1px solid rgba($white, .2);
+        }
+    }
+}
+
+.portfolio-desc {
+    .slider-img {
+        padding-bottom: 100%;
+        height: auto;
+    }
+    .btn-tag {
+        background-color: $gray-300;
+        border-color: $gray-300;
+        color: $gray-900;
+        @include transition(.3s all linear);
+        @include hover-focus-active {
+            background-color: theme-color("primary");
+            border-color: theme-color("primary");
+            color: $white;
+        }
+    }
+    .min-w {
+        min-width: 6.25rem;
+    }
+    p,
+    .post-desc {
+        font-size: .875rem;
+    }
+    .post-photo {
+        width: 10.625rem;
+    }
+    .social-icon {
+        color: $gray-700;
+        @include transition(.3s all linear);
+        @include hover-focus-active {
+            color: theme-color("primary");
+            text-decoration: none;
+        }
+    }
+    .post-title {
+        color: $gray-700;
+        span {
+            color: $gray-600;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .bg-img {
+        margin-top: 3rem;
+    }
+}

@@ -108,8 +108,9 @@ $left-sidebar-width: 14.375rem;
             right: 0;
             color: $white;
             top: 50%;
-            margin-top: -1rem;
+            margin-top: -1.15rem;
             margin-right: 1rem;
+            line-height: .7;
             @include transition(.3s all linear);
             &:focus {
                 outline: 0;

@@ -3,11 +3,11 @@
 @import "../../../css/scss/mixins";
 $breadcrumb-divider-color: $white;
 .slider-img,
-.blog-bg {
+.bg-img {
     @include img-inbg;
 }
 
-.blog-bg {
+.bg-img {
     line-height: 0;
     height: 400px;
     &.gradient {
@@ -184,6 +184,7 @@ $breadcrumb-divider-color: $white;
     .btn-tag {
         border-color: $gray-200;
         color: $gray-500;
+        @include transition(.3s all linear);
         @include hover-focus-active {
             color: $white;
         }
@@ -191,7 +192,7 @@ $breadcrumb-divider-color: $white;
 }
 
 @include media-breakpoint-down(md) {
-    .blog-bg {
+    .bg-img {
         margin-top: 3rem;
     }
 }
