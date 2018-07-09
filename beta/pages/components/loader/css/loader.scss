@@ -16,6 +16,7 @@ $bounce_height: 30px;
     bottom: 0;
     font-family: $headings-font-family;
     z-index: 99;
+    background-color: theme-color("primary");
 }
 
 .wrap {
@@ -51,25 +52,25 @@ $bounce_height: 30px;
     }
 }
 
-.loader-section {
-    position: fixed;
-    top: 0;
-    width: 51%;
-    height: 100%;
-    background-color: theme-color("primary");
-    z-index: 99;
-    @include transform(translateX(0));
-    &.left-section {
-        left: 0;
-        @include animation(slide-left 3s forwards);
-        animation-delay: 6s;
-    }
-    &.right-section {
-        right: 0;
-        @include animation(slide-right 3s forwards);
-        animation-delay: 6s;
-    }
-}
+// .loader-section {
+//     position: fixed;
+//     top: 0;
+//     width: 51%;
+//     height: 100%;
+//     background-color: theme-color("primary");
+//     z-index: 99;
+//     @include transform(translateX(0));
+//     &.left-section {
+//         left: 0;
+//         @include animation(slide-left 3s forwards);
+//         //animation-delay: 6s;
+//     }
+//     &.right-section {
+//         right: 0;
+//         @include animation(slide-right 3s forwards);
+//         //animation-delay: 6s;
+//     }
+// }
 
 @include keyframes(bounce) {
     0% {
