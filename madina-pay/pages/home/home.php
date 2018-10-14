@@ -6,7 +6,7 @@
 		<div class="header-bar">
 			<div class="float-left">
 				<div class="logo">
-					<h1>
+					<h1 class="mb-0">
 						<a href="#">Logo</a>
 					</h1>
 				</div>
