@@ -1,0 +1,25 @@
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+}
+@mixin linear-gradient-b($args...) {
+ background-image: -o-linear-gradient($args); 
+ background-image: -moz-linear-gradient($args); 
+ background-image: -webkit-linear-gradient($args); 
+  background-image: linear-gradient($args); 
+}
+@mixin shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+@mixin transform-origin ($origin) {
+    moz-transform-origin: $origin;
+	     -o-transform-origin: $origin;
+	    -ms-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}

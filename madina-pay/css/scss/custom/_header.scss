@@ -1,8 +1,41 @@
 .site-header {
-	display: inline-block;
-	width: 100%;
-	.header-bar {
-		display: inline-block;
-		width: 100%;
-	}
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    .header-bar {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .login-btn {
+        color: $color-white;
+    }
+
+    .signup-btn {
+        background-color: $color-white;
+        color: $brand-color;
+        border-color: $color-white;
+
+        &:hover,
+        &:focus,
+        &:active {
+            opacity: 1;
+        }
+    }
+}
+@include breakpoint-max($bp-medium) {
+    .site-header {
+    	.login-btn,
+    	.signup-btn {
+    		font-size: 14px;
+    		padding: 0 10px;
+    	}
+    	.login-btn {
+    		color: $brand-color;
+    	}
+    }
 }

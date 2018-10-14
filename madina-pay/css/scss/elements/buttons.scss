@@ -52,7 +52,7 @@ input[type='submit'] {
     &:hover {
         opacity: 0.85;
         cursor: pointer;
-        transform: scale(1.025);
+        //transform: scale(1.025);
 
         @if $button-shadow {
             box-shadow: 0 2px 8px rgba($color-gray-600, 0.5);
