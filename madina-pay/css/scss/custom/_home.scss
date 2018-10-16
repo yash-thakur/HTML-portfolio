@@ -1,7 +1,6 @@
-$banner-bg: #2e7bcd;
-$banner-gradient1: #185fc0;
-$banner-gradient2: #4597db;
-
+img {
+    max-width: 100%;
+}
 #page {
     overflow: hidden;
 }
@@ -49,7 +48,7 @@ $banner-gradient2: #4597db;
         height: 300px;
         left: 0%;
         @include shadow(1px 1px 0, 2px 2px 0, 3px 3px 0);
-        bottom: -4%;
+        bottom: -30%;
     }
 
     .banner-right-img {
@@ -91,9 +90,11 @@ $banner-gradient2: #4597db;
         max-width: 430px;
     }
 }
-
-.layer-1 {
-    .content {
+.layer-1,
+.layer-2,
+.layer-5,
+.layer-6 {
+   .content {
         max-width: 800px;
         margin: 0 auto;
     }
@@ -102,12 +103,14 @@ $banner-gradient2: #4597db;
         max-width: 600px;
         margin: 1rem auto;
 
-        span {
+        .small {
             display: block;
             font-size: 12px;
         }
-    }
-
+    } 
+}
+.layer-1,
+.layer-5 {
     .logo-img {
         max-width: 100px;
         margin: 0 auto;
@@ -182,10 +185,6 @@ $banner-gradient2: #4597db;
 }
 
 .layer-6 {
-    .desc {
-        max-width: 600px;
-        margin: 1rem auto;
-    }
     .security-logo {
         max-width: 300px;
         margin: 0 auto;

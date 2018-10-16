@@ -1,0 +1,8 @@
+.site-footer {
+    background: $banner-bg;
+    color: $banner-bg;
+    @include linear-gradient-b(45deg, $banner-gradient1, $banner-gradient2 50%);
+    .footer-title,a {
+    	color: $color-white;
+    }
+}
