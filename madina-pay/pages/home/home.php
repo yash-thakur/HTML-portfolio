@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="header-bar">
 				<div>
-					<div class="logo">
+					<div class="site-logo">
 						<a href="#" class="h2">
 							<img src="../../images/mpg-logo.png" alt="Madinapay" />
 						</a>

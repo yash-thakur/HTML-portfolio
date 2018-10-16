@@ -2581,11 +2581,11 @@ a.text-danger:hover, a.text-danger:focus {
     width: 100%;
     justify-content: space-between;
     align-items: center; }
-  .site-header .logo {
+  .site-header .site-logo {
     max-width: 250px; }
-    .site-header .logo a {
+    .site-header .site-logo a {
       display: inline-block; }
-    .site-header .logo img {
+    .site-header .site-logo img {
       max-width: 100%; }
   .site-header .login-btn {
     color: #ffffff; }
@@ -2602,7 +2602,14 @@ a.text-danger:hover, a.text-danger:focus {
     font-size: 14px;
     padding: 0 10px; }
   .site-header .login-btn {
-    color: #ff7300; } }
+    color: #ff7300; }
+  .site-header .site-logo {
+    max-width: 140px; } }
+@media (max-width: 374px) {
+  .site-header .login-btn,
+  .site-header .signup-btn {
+    font-size: 12px;
+    padding: 0; } }
 .site-footer {
   background: #ff5c00;
   color: #ff5c00;

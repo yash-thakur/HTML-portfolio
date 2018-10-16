@@ -1,6 +1,7 @@
 $banner-bg: #ff5c00;
 $banner-gradient1: #ff7300;
 $banner-gradient2: #7b2103;
+
 .site-header {
     display: inline-block;
     width: 100%;
@@ -13,15 +14,19 @@ $banner-gradient2: #7b2103;
         justify-content: space-between;
         align-items: center;
     }
-    .logo {
+
+    .site-logo {
         max-width: 250px;
+
         a {
             display: inline-block;
         }
+
         img {
             max-width: 100%;
         }
     }
+
     .login-btn {
         color: $color-white;
     }
@@ -38,15 +43,33 @@ $banner-gradient2: #7b2103;
         }
     }
 }
+
 @include breakpoint-max($bp-medium) {
     .site-header {
-    	.login-btn,
-    	.signup-btn {
-    		font-size: 14px;
-    		padding: 0 10px;
-    	}
-    	.login-btn {
-    		color: $brand-color;
-    	}
+
+        .login-btn,
+        .signup-btn {
+            font-size: 14px;
+            padding: 0 10px;
+        }
+
+        .login-btn {
+            color: $brand-color;
+        }
+
+        .site-logo {
+            max-width: 140px;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .site-header {
+
+        .login-btn,
+        .signup-btn {
+            font-size: 12px;
+            padding: 0;
+        }
     }
 }
