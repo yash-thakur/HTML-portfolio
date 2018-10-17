@@ -52,7 +52,7 @@
 							<i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
-					<div class="col col-md-6 display-md-up">
+					<div class="col col-md-6">
 						<!-- <div class="banner-right-img" style="background-image: url('../../images/banner.png');"></div> -->
 					</div>
 				</div>
