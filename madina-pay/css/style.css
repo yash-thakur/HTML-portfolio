@@ -2627,7 +2627,7 @@ a.text-danger:hover, a.text-danger:focus {
   .site-footer .footer-logo {
     max-width: 100px; }
   .site-footer .footer-container {
-    align-items: center; }
+    align-items: flex-end; }
 
 img {
   max-width: 100%; }

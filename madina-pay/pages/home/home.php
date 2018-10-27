@@ -260,13 +260,13 @@
 					<h4 class="footer-title">Company</h4>
 					<div>
 						<p class="mt-0 mb-2">
-							<a class="footer-link" href="https://www.payumoney.com/aboutus.html">About Us</a>
+							<a class="footer-link" href="#">About Us</a>
 						</p>
 						<p class="mt-0 mb-2">
-							<a class="footer-link" href="https://www.payumoney.com/privacypolicy.html">Privacy Policy</a>
+							<a class="footer-link" href="#">Privacy Policy</a>
 						</p>
 						<p class="mt-0 mb-2">
-							<a class="footer-link" href="https://www.payumoney.com/tnc.html">Terms of Service</a>
+							<a class="footer-link" href="#">Terms of Service</a>
 						</p>
 					</div>
 				</div>
@@ -280,7 +280,7 @@
 							<a class="footer-link" href="#">Features</a>
 						</p>
 						<p class="mt-0 mb-2">
-							<a class="footer-link" href="https://www.payumoney.com/payment-gateway-fee.html">Pricing</a>
+							<a class="footer-link" href="#">Pricing</a>
 						</p>
 					</div>
 				</div>
