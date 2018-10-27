@@ -1,6 +1,7 @@
-$banner-bg: #ff5c00;
-$banner-gradient1: #ff7300;
-$banner-gradient2: #7b2103;
+$banner-bg: #2abaee;
+$banner-dark-bg: #0e306d;
+$banner-gradient1: $banner-bg;
+$banner-gradient2: $banner-dark-bg;
 
 .site-header {
     display: inline-block;

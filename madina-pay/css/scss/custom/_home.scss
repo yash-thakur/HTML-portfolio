@@ -1,6 +1,7 @@
 img {
     max-width: 100%;
 }
+
 #page {
     overflow: hidden;
 }
@@ -90,11 +91,12 @@ img {
         max-width: 430px;
     }
 }
+
 .layer-1,
 .layer-2,
 .layer-5,
 .layer-6 {
-   .content {
+    .content {
         max-width: 800px;
         margin: 0 auto;
     }
@@ -107,22 +109,12 @@ img {
             display: block;
             font-size: 12px;
         }
-    } 
-}
-.layer-1,
-.layer-5 {
-    .logo-img {
-        max-width: 100px;
-        margin: 0 auto;
-
-        img {
-            max-width: 100%;
-        }
     }
 }
 
+
 .layer-3 {
-    background-color: $banner-bg;
+    background-color: $banner-dark-bg;
     color: $color-white;
 
     .block {
@@ -188,9 +180,20 @@ img {
     .security-logo {
         max-width: 300px;
         margin: 0 auto;
+
         img {
             max-width: 100%;
         }
+    }
+}
+
+.logo-section {
+    align-items: center;
+    .logo-container {
+        max-width: 85px;
+        display: inline-block;
+        padding: .5rem 1rem;
+        vertical-align: middle;
     }
 }
 

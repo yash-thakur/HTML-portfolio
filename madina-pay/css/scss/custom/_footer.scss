@@ -1,8 +1,22 @@
 .site-footer {
-    background: $banner-bg;
-    color: $banner-bg;
-    @include linear-gradient-b(45deg, $banner-gradient1, $banner-gradient2 50%);
+    background-color: rgba($banner-bg,.3);
+    //color: $banner-bg;
+    @include linear-gradient-b(45deg, #eef9fe, #edf7ff 50%);
     .footer-title,a {
-    	color: $color-white;
+    	color: $color-gray-700;
+    }
+    .footer-title {
+    	font-size: 1rem;
+    	text-transform: uppercase;
+    }
+    .footer-link,
+    .copy-right-text {
+    	font-size: .875rem;
+    }
+    .footer-logo {
+    	max-width: 100px;
+    }
+    .footer-container {
+    	align-items: center;
     }
 }
