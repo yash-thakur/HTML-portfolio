@@ -40,13 +40,13 @@
 							</p>
 						</div>
 						<!-- <form>
-								<div class="form-control">
-										<input type="text" placeholder="Your email address"  class="input-box" />
-										<button class="btn-get button button-primary-text mb-0">
-										Get
-										<i class="fa fa-arrow-right"></i>
-										</button>
-								</div>
+							<div class="form-control">
+								<input type="text" placeholder="Your email address"  class="input-box" />
+								<button class="btn-get button button-primary-text mb-0">
+								Get
+								<i class="fa fa-arrow-right"></i>
+								</button>
+							</div>
 						</form>
 						<a href="#" class="button button-primary-text pl-0 mb-0">View API Documentation</a> -->
 						<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary mb-0">
