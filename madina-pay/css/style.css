@@ -2699,7 +2699,8 @@ img {
     box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0;
     bottom: -30%; }
   .banner .banner-right-img {
-    height: 600px;
+    min-height: 270px;
+    padding-bottom: 85%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top; }
@@ -2795,12 +2796,12 @@ img {
     vertical-align: middle; }
 
 @media (max-width: 768px) {
-  .banner:before, .banner:after {
-    display: none; }
-  .banner .banner-right-img {
-    display: none; }
-  .banner .heading-section .title {
-    font-size: 1.5rem; }
+  .banner {
+    min-height: inherit; }
+    .banner:before, .banner:after {
+      display: none; }
+    .banner .heading-section .title {
+      font-size: 1.5rem; }
 
   h3 {
     font-size: 1.3rem;

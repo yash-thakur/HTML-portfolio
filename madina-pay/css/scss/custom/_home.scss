@@ -53,7 +53,8 @@ img {
     }
 
     .banner-right-img {
-        height: 600px;
+        min-height: 270px;
+        padding-bottom: 85%;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right top;
@@ -199,13 +200,9 @@ img {
 
 @include breakpoint-max($bp-medium) {
     .banner {
-
+        min-height: inherit;       
         &:before,
         &:after {
-            display: none;
-        }
-
-        .banner-right-img {
             display: none;
         }
 
