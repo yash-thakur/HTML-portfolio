@@ -40,13 +40,13 @@
 							</p>
 						</div>
 						<!-- <form>
-							<div class="form-control">
-								<input type="text" placeholder="Your email address"  class="input-box" />
-								<button class="btn-get button button-primary-text mb-0">
-								Get
-								<i class="fa fa-arrow-right"></i>
-								</button>
-							</div>
+												<div class="form-control">
+																		<input type="text" placeholder="Your email address"  class="input-box" />
+																		<button class="btn-get button button-primary-text mb-0">
+																		Get
+																		<i class="fa fa-arrow-right"></i>
+																		</button>
+												</div>
 						</form>
 						<a href="#" class="button button-primary-text pl-0 mb-0">View API Documentation</a> -->
 						<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary mb-0">
@@ -69,45 +69,32 @@
 						<a href="#" class="small">Get started within minutes.</a>
 					</p>
 					<div class="logo-section my-3">
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/m-pesa-logo.png" alt="M-pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/m-pesa-logo.png" alt="M-pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/airtel-money.png" alt="Airtel Money" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/airtel-money.png" alt="Airtel Money" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/tigo-pesa.png" alt="Tigo pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/tigo-pesa.png" alt="Tigo pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/halo-pesa.png" alt="Halo pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/halo-pesa.png" alt="Halo pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/ezy-pesa.png" alt="Ezy pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/ezy-pesa.png" alt="Ezy pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/nmb-wakala.png" alt="NMB Wakala" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/nmb-wakala.png" alt="NMB Wakala" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/nmb.png" alt="NMB Bank" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/nmb.png" alt="NMB Bank" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/nmb-mobile.png" alt="NMB Mobile" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/nmb-mobile.png" alt="NMB Mobile" />
+						</div>
+						<div class="logo-img">
+							<img src="../../images/paytz.png" alt="Paytz" />
 						</div>
 					</div>
 					<div class="align-center my-3">
@@ -195,45 +182,32 @@
 						<i class="fa fa-arrow-right"></i>
 					</a>
 					<div class="logo-section my-3">
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/m-pesa-logo.png" alt="M-pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/m-pesa-logo.png" alt="M-pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/airtel-money.png" alt="Airtel Money" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/airtel-money.png" alt="Airtel Money" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/tigo-pesa.png" alt="Tigo pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/tigo-pesa.png" alt="Tigo pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/halo-pesa.png" alt="Halo pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/halo-pesa.png" alt="Halo pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/ezy-pesa.png" alt="Ezy pesa" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/ezy-pesa.png" alt="Ezy pesa" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/nmb-wakala.png" alt="NMB Wakala" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/nmb-wakala.png" alt="NMB Wakala" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/nmb.png" alt="NMB Bank" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/nmb.png" alt="NMB Bank" />
 						</div>
-						<div class="logo-container">
-							<div class="logo-img">
-								<img src="../../images/nmb-mobile.png" alt="NMB Mobile" />
-							</div>
+						<div class="logo-img">
+							<img src="../../images/nmb-mobile.png" alt="NMB Mobile" />
+						</div>
+						<div class="logo-img">
+							<img src="../../images/paytz.png" alt="Paytz" />
 						</div>
 					</div>
 				</div>
@@ -309,8 +283,8 @@
 			</div>
 			<div>
 				<h6 class="align-center">Payments supported by</h6>
-				<div class="align-center">
-					<img src="" alt="Paytz Logo" />
+				<div class="bottom-logo align-center">
+					<img src="../../images/paytz.png" alt="Paytz Logo" />
 				</div>
 			</div>
 		</div>

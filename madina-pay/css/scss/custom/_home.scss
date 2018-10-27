@@ -158,26 +158,6 @@ img {
     }
 }
 
-.layer-5 {
-    .companies-logo {
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-
-        .logo-img {
-            max-width: 130px;
-            margin: 0 auto;
-            padding: 1rem;
-            display: inline-block;
-            vertical-align: top;
-
-            img {
-                max-width: 100%;
-            }
-        }
-    }
-}
-
 .layer-6 {
     .security-logo {
         max-width: 300px;
@@ -191,7 +171,7 @@ img {
 
 .logo-section {
     align-items: center;
-    .logo-container {
+    .logo-img {
         max-width: 85px;
         display: inline-block;
         padding: .5rem 1rem;
