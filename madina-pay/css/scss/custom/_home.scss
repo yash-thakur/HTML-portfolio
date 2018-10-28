@@ -171,6 +171,7 @@ img {
 
 .logo-section {
     align-items: center;
+
     .logo-img {
         max-width: 85px;
         display: inline-block;
@@ -179,9 +180,34 @@ img {
     }
 }
 
+.layer-1 {
+    .btn-pay {
+        background: $brand-color;
+        color: $color-white;
+        border-radius: 1.5rem;
+        padding: 0 2.5rem 0 1.5rem;
+    }
+
+    .pay-btn-div {
+        position: relative;
+        display: inline-block;
+        &:after {
+            content: '\f061';
+            font-family: 'FontAwesome';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -.8125rem;
+            color: #fff;
+            margin-right: 1.5rem;
+        }
+    }
+}
+
 @include breakpoint-max($bp-medium) {
     .banner {
-        min-height: inherit;       
+        min-height: inherit;
+
         &:before,
         &:after {
             display: none;

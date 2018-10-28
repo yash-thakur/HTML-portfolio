@@ -2786,6 +2786,24 @@ img {
     padding: .5rem 1rem;
     vertical-align: middle; }
 
+.layer-1 .btn-pay {
+  background: #2abaee;
+  color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 0 2.5rem 0 1.5rem; }
+.layer-1 .pay-btn-div {
+  position: relative;
+  display: inline-block; }
+  .layer-1 .pay-btn-div:after {
+    content: '\f061';
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -.8125rem;
+    color: #fff;
+    margin-right: 1.5rem; }
+
 @media (max-width: 768px) {
   .banner {
     min-height: inherit; }

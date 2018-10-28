@@ -15,7 +15,7 @@
 				</div>
 				<div>
 					<a href="https://madinapay.co.tz/merchants" class="login-btn button button-primary-text mb-0">Login</a>
-					<a href="https://madinapay.co.tz/homes/front_registration" class="signup-btn button button-primary mb-0">
+					<a href="https://madinapay.co.tz/homes/front_registration" class="signup-btn button button-primary button-round mb-0">
 						Sign Up
 						<i class="fa fa-arrow-right"></i>
 					</a>
@@ -40,16 +40,16 @@
 							</p>
 						</div>
 						<!-- <form>
-												<div class="form-control">
-																		<input type="text" placeholder="Your email address"  class="input-box" />
-																		<button class="btn-get button button-primary-text mb-0">
-																		Get
-																		<i class="fa fa-arrow-right"></i>
-																		</button>
-												</div>
+								<div class="form-control">
+										<input type="text" placeholder="Your email address"  class="input-box" />
+										<button class="btn-get button button-primary-text mb-0">
+										Get
+										<i class="fa fa-arrow-right"></i>
+										</button>
+								</div>
 						</form>
 						<a href="#" class="button button-primary-text pl-0 mb-0">View API Documentation</a> -->
-						<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary mb-0">
+						<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary button-round mb-0">
 							Sign Up
 							<i class="fa fa-arrow-right"></i>
 						</a>
@@ -99,10 +99,20 @@
 					</div>
 					<div class="align-center my-3">
 						<h6>Experience a demo payment</h6>
-						<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary mb-0" target="_blank">
-							Pay
-							<i class="fa fa-arrow-right"></i>
-						</a>
+						<!-- <a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary button-round mb-0" target="_blank">
+								Pay
+								<i class="fa fa-arrow-right"></i>
+						</a> -->
+						<form action="https://madinapay.co.tz/transactions/paysecure834u2edE" method="post" >
+							<input type="hidden" name="api_key" value="gxl216j1c3g1u23g">
+							<input type="hidden" name="api_secret" value="4os49n72525lr8q052b4">
+							<input type="hidden" name="amount" value="500">
+							<input type="hidden" name="order_id" value="1">
+							<input type="hidden" name="return_url" value="https://madinapay.co.tz/transactions/pay_form">
+							<div class="pay-btn-div">
+								<input type="Submit" name="Pay" value="Pay" class="btn-pay button button-primary button-round mb-0">
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -161,7 +171,7 @@
 					</div>
 				</div>
 				<div class="align-center my-3">
-					<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary-outlined mb-0" target="_blank">
+					<a href="https://madinapay.co.tz/homes/front_registration" class="button button-primary-outlined button-round mb-0" target="_blank">
 						Sign Up Now
 						<i class="fa fa-arrow-right"></i>
 					</a>
@@ -177,7 +187,7 @@
 			<div class="container align-center">
 				<div class="content">
 					<h3>Join over 620+ online businesses</h3>
-					<a href="#" class="button button-primary my-3">
+					<a href="#" class="button button-primary button-round my-3">
 						Register Now
 						<i class="fa fa-arrow-right"></i>
 					</a>
